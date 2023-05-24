@@ -1,0 +1,118 @@
+/* STYLE DO INPUT */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 40rem;
+  height: 5em;
+  background-color: transparent;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  height: 4em;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.form img {
+  width: 40px;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.form input {
+  width: 100%;
+  font-family: FireSans;
+  font-weight: 500;
+  color: #330000;
+  font-size: 1.1em;
+  padding-left: 10px;
+  border: none;
+}
+
+.form input::placeholder {
+  font-family: FireSans;
+  font-weight: 500;
+  color: #330000;
+  font-size: 1.1em;
+}
+
+.form button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19%;
+  cursor: pointer;
+  background-color: #330000;
+  border-radius: 0 30px 30px 0;
+  margin: 0;
+}
+
+.form button img {
+  width: 25px;
+  padding: 0;
+}
+
+/* STYLE DA LISTA */
+.list-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  z-index: 9999;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.list-container li {
+  list-style: none;
+}
+
+.list-item {
+  display: flex;
+  width: 380px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2), -2px -2px 4px rgba(0, 0, 0, 0.2);
+  /* border: 1px solid #330000; */
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 20px;
+  margin-bottom: 2px;
+}
+
+.list-item:hover {
+  background-color: #bebcbc;
+}
+
+.list-item p {
+  color: #330000;
+  font-family: FireSans;
+  font-weight: 400;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 1000px) {
+  .list-container {
+    width: 62%;
+  }
+}
+
+@media (max-width: 650px) {
+  .form-container {
+    width: 100%;
+  }
+
+  .form {
+    width: 85%;
+  }
+
+  .form img {
+    width: 40px;
+  }
+
+  .list-item {
+    width: 240px;
+  }
+}
