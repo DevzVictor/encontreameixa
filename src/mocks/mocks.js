@@ -179,8 +179,8 @@ export const stores = [
     Bairro: "Setor Central",
     Rua: "Av Rio Grande Do Sul , Nº: 1.046",
     Complemento: "Quadra284 Lote 11",
-    latitude: -29.3646459,
-    longitude: -51.6657692,
+    latitude: -11.723307,
+    longitude: -49.073319,
   },
   {
     Parceiro: "Supermercado Iguatu",
@@ -1993,8 +1993,8 @@ export const stores = [
     Bairro: "Setor Oeste",
     Rua: "Av Republica Do Libano , Nº: 2079",
     Complemento: "Av.Republica Do Libano Sn Quad",
-    latitude: 33.854721,
-    longitude: 35.862285,
+    latitude: -16.677211,
+    longitude: -49.267785,
   },
   {
     Parceiro: "Nossa Kaza F05 - Luziania - Centro",
@@ -3356,8 +3356,8 @@ export const stores = [
     Bairro: "Parque Estrela Dalva VII",
     Rua: "Quadra 509 , Nº: S/N",
     Complemento: "Qd 509",
-    latitude: -21.7427785,
-    longitude: -42.46190259999999,
+    latitude: -16.060691,
+    longitude: -48.029581,
   },
   {
     Parceiro: "Vivendas - Jardim Céu Azul",
