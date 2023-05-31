@@ -38,9 +38,6 @@
 }
 
 @media (max-width: 600px) {
-  .footer-text {
-    font-size: 15px;
-  }
   .social-icons {
     width: 15%;
   }
@@ -50,11 +47,6 @@
 }
 
 @media (max-width: 500px) {
-  .footer-text {
-    width: 80%;
-    font-size: 13px;
-  }
-
   .social-icons img {
     width: 20px;
   }

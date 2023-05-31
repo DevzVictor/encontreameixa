@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="footer-container">
       <div className="footer-text">
-        <h3>Politica de privacidade | Copyright © 2023</h3>
+        <h6>Politica de privacidade | Copyright © 2023</h6>
       </div>
       <div className="social-icons">
         <a href="https://www.instagram.com/ameixagoiana/" target="blank">
