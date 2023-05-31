@@ -90,8 +90,8 @@
 }
 
 .header-icons img {
-  margin-left: 10px;
   width: 2rem;
+  margin-left: 0.5rem;
 }
 
 .header-corda {
@@ -107,10 +107,6 @@
 @media (max-width: 2000px) {
   .header-box {
     width: 900px;
-  }
-
-  .header-icons {
-    padding-right: 30px;
   }
 }
 

@@ -1,15 +1,23 @@
 .footer-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   height: 5rem;
   width: 100%;
   background-color: #ffa50d;
 }
 
-.footer-text {
+.footer-box {
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 100%;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: flex-start;
   width: 70%;
   color: #330000;
   font-size: 18px;
@@ -17,24 +25,23 @@
 
 .social-icons {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 30%;
-}
-
-.social-icons a {
-  display: flex;
   justify-content: flex-end;
-  margin-right: 15px;
+  width: 480px;
 }
 
 .social-icons img {
   width: 30px;
   cursor: pointer;
+  margin-left: 0.5rem;
 }
 
-@media (max-width: 800px) {
-  
+@media (max-width: 900px) {
+  .footer-text {
+    justify-content: center;
+  }
+  .social-icons {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 600px) {
