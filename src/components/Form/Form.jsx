@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import yellowPino from "../../assets/icons/yellow-pino.svg";
 import whiteArrow from "../../assets/icons/white-arrow.svg";
 import "./Style.css";
@@ -20,7 +20,7 @@ export default function Form(props) {
   const handleSearch = async (e) => {
     e.preventDefault();
     setIsListVisible(true);
-    
+
     try {
       const places = await fetchPlaces(searchText);
       setListPlace(places);
@@ -30,6 +30,13 @@ export default function Form(props) {
     }
   };
 
+  // zerar lista de lugares ao apagar todo input
+  useEffect(() => {
+    if(searchText.trim().length == 0){
+        setListPlace([])
+    }
+  }, [searchText]);
+
   return (
     <>
       <div className="form-container">
@@ -38,7 +45,7 @@ export default function Form(props) {
           <input
             type="text"
             value={searchText}
-            placeholder="Digite seu endereço aqui"
+            placeholder="Digite seu CEP ou endereço aqui"
             onChange={({ target }) => {
               setSearchText(target.value);
             }}
