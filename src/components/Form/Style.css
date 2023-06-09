@@ -116,3 +116,9 @@
     width: 240px;
   }
 }
+
+@media (max-width: 440px) {
+  .form input::placeholder {
+    font-size: 0.8em;
+  }
+}
