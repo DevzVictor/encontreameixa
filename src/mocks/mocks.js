@@ -1,4 +1,4 @@
-export const stores = [
+const stores = [
   {
     Parceiro: "Supermercado Tocantins",
     Cidade: "Alianca Do Tocantins",
@@ -20,17 +20,6 @@ export const stores = [
     Complemento: "Quadra84 Lote 12-A",
     latitude: -12.4813039,
     longitude: -49.1209435,
-  },
-  {
-    Parceiro: "Mercearia E Bar Gomes",
-    Cidade: "Araguacu",
-    Estado: "TO",
-    CEP: "77475-000",
-    Bairro: "Setor Aeroporto",
-    Rua: "Av Jose De Alencar Feitosa , Nº: SN",
-    Complemento: "Qd 06 Lt 15",
-    latitude: -12.9257288,
-    longitude: -49.8300402,
   },
   {
     Parceiro: "Supermercado Serve Lar",
@@ -65,17 +54,6 @@ export const stores = [
     longitude: -49.523471,
   },
   {
-    Parceiro: "Matheus Supermercado",
-    Cidade: "Formoso Do Araguaia",
-    Estado: "TO",
-    CEP: "77470-000",
-    Bairro: "Centro",
-    Rua: "Av Rio Formoso , Nº: 286",
-    Complemento: "Quadra56 Lote 05",
-    latitude: -11.8057672,
-    longitude: -49.5305451,
-  },
-  {
     Parceiro: "Beira Rio Supermercado - Alto Da Boa Vista",
     Cidade: "Gurupi",
     Estado: "TO",
@@ -93,6 +71,7 @@ export const stores = [
     Bairro: "Alto Dos Buritis",
     Rua: "R Presidente Costa E Silva , Nº: 60",
     Complemento: "Quadralote 02 Ao 09",
+
     latitude: -11.7211861,
     longitude: -49.0586902,
   },
@@ -104,6 +83,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "Av Parana , Nº: 1317A",
     Complemento: "Centro",
+
     latitude: -11.7250736,
     longitude: -49.0714723,
   },
@@ -114,6 +94,7 @@ export const stores = [
     CEP: "77410-020",
     Bairro: "Centro",
     Rua: "Avenida Maranhão , Nº: 2760",
+
     latitude: -11.7244438,
     longitude: -49.0613827,
   },
@@ -124,6 +105,7 @@ export const stores = [
     CEP: "77440-070",
     Bairro: "Jardim Tocantins",
     Rua: "Av Goiás , Nº: 843",
+
     latitude: -11.7211861,
     longitude: -49.0586902,
   },
@@ -135,6 +117,7 @@ export const stores = [
     Bairro: "Loteamento Nossa Senhora ",
     Rua: "Av Goiás , Nº: 2844",
     Complemento: "Quadrag Lote 01 Ao 05 Sala 02",
+
     latitude: -11.7244438,
     longitude: -49.0613827,
   },
@@ -146,6 +129,7 @@ export const stores = [
     Bairro: "Loteamento Sao Cristovao",
     Rua: "R 101 , Nº: 109",
     Complemento: "Quadra02 Lote 05",
+
     latitude: -11.7244438,
     longitude: -49.0613827,
   },
@@ -157,6 +141,7 @@ export const stores = [
     Bairro: "Setor Aeroporto II",
     Rua: "Rua 11 , Nº: 189",
     Complemento: "Lt 6 Qd 15",
+
     latitude: -11.7124524,
     longitude: -49.0480577,
   },
@@ -168,6 +153,7 @@ export const stores = [
     Bairro: "Setor Central",
     Rua: "Av Parana , Nº: 1347",
     Complemento: "Quadra87 Lote 03",
+
     latitude: -11.7288556,
     longitude: -49.0723613,
   },
@@ -179,6 +165,7 @@ export const stores = [
     Bairro: "Setor Central",
     Rua: "Av Rio Grande Do Sul , Nº: 1.046",
     Complemento: "Quadra284 Lote 11",
+
     latitude: -11.7232866,
     longitude: -49.075537,
   },
@@ -190,6 +177,7 @@ export const stores = [
     Bairro: "Setor Central",
     Rua: "R Presidente Castelo Branco , Nº: 705-A",
     Complemento: "Setor Central",
+
     latitude: -11.7212819,
     longitude: -49.0700972,
   },
@@ -201,19 +189,9 @@ export const stores = [
     Bairro: "Centro",
     Rua: "Av Ulisses Guimaraes , Nº: SN",
     Complemento: "Quadra43 Lote 08 E 09",
+
     latitude: -12.5383586,
     longitude: -49.9260966,
-  },
-  {
-    Parceiro: "Supermercado Santa Rita",
-    Cidade: "Santa Rita Do Tocantins",
-    Estado: "TO",
-    CEP: "77565-000",
-    Bairro: "Centro",
-    Rua: "R Ursulina Alves Carvalho , Nº: SN",
-    Complemento: "Centro",
-    latitude: -10.8633268,
-    longitude: -48.9067015,
   },
   {
     Parceiro: "Sim Atacado ",
@@ -223,6 +201,7 @@ export const stores = [
     Bairro: "Jardim Tropical",
     Rua: "Avenida Lago Das Garças , Nº: S/N",
     Complemento: "Qd 26 Lt 18",
+
     latitude: -16.7675741,
     longitude: -49.35002129999999,
   },
@@ -234,6 +213,7 @@ export const stores = [
     Bairro: "Cidade Jardim",
     Rua: "Avenida Pio Xii , Nº: 802",
     Complemento: "Qd. 91, Lt. 06",
+
     latitude: -16.6793017,
     longitude: -49.3078077,
   },
@@ -245,6 +225,7 @@ export const stores = [
     Bairro: "Jardim America",
     Rua: "R C 199 , Nº: 15",
     Complemento: "Jardim America",
+
     latitude: -16.6979093,
     longitude: -49.2844311,
   },
@@ -255,6 +236,7 @@ export const stores = [
     CEP: "74474-048",
     Bairro: "Jardim Colorado",
     Rua: "Av Do Contorno , Nº: 2270",
+
     latitude: -16.7675741,
     longitude: -49.35002129999999,
   },
@@ -265,6 +247,7 @@ export const stores = [
     CEP: "74353-210",
     Bairro: "Jardim Presidente",
     Rua: "R Presidente Jefferson , Nº: 457",
+
     latitude: -16.7470017,
     longitude: -49.3237614,
   },
@@ -276,6 +259,7 @@ export const stores = [
     Bairro: "Jardim São José",
     Rua: "Avenida Gercina Borges Teixeira , Nº: 4172",
     Complemento: "Quadra 20; Lote 20",
+
     latitude: -16.7022382,
     longitude: -49.41610499999999,
   },
@@ -287,6 +271,7 @@ export const stores = [
     Bairro: "Jd Guanabara",
     Rua: "Rua Indaiá , Nº: 1158",
     Complemento: "Quadra122 Lote 13",
+
     latitude: -16.6206048,
     longitude: -49.2081617,
   },
@@ -298,6 +283,7 @@ export const stores = [
     Bairro: "Parque Amazonas",
     Rua: "Av Dona Ana Nunes De Morais , Nº: 472",
     Complemento: "Qd 201 Lt 01",
+
     latitude: -16.7269076,
     longitude: -49.278073,
   },
@@ -309,6 +295,7 @@ export const stores = [
     Bairro: "Prq Atheneu",
     Rua: "R 9 Unidade 101 , Nº: 270",
     Complemento: "Quadrau-101 Lote 01",
+
     latitude: -16.7450027,
     longitude: -49.19675729999999,
   },
@@ -319,6 +306,7 @@ export const stores = [
     CEP: "74369-023",
     Bairro: "Residencial Center Ville",
     Rua: "Avenida Ville , Nº: 2345",
+
     latitude: -16.7350295,
     longitude: -49.3481219,
   },
@@ -330,6 +318,7 @@ export const stores = [
     Bairro: "Setor Cristina",
     Rua: "R Bartolomeu Bueno , Nº: 643",
     Complemento: "Quadra06 Lote 10 11 25 26 E 27",
+
     latitude: -16.7620623,
     longitude: -49.3513203,
   },
@@ -341,6 +330,7 @@ export const stores = [
     Bairro: "Setor Sudoeste",
     Rua: "Rua C70 , Nº: 233",
     Complemento: "Quadra 136 Lote 17 E 18",
+
     latitude: -16.7134567,
     longitude: -49.2880835,
   },
@@ -352,6 +342,7 @@ export const stores = [
     Bairro: "Vila Santa Helena",
     Rua: "Rua G , Nº: 51",
     Complemento: "Quadra 43; Lote 03",
+
     latitude: -16.6295299,
     longitude: -49.204586,
   },
@@ -363,6 +354,7 @@ export const stores = [
     Bairro: "Residencial Santa Edwiges",
     Rua: "Av Progresso , Nº: SN",
     Complemento: "Quadra01 Lote 42/43",
+
     latitude: -16.6567286,
     longitude: -49.164675,
   },
@@ -374,6 +366,7 @@ export const stores = [
     Bairro: "Chacaras Sao Pedro",
     Rua: "Rua 2 , Nº: S/N",
     Complemento: "Lote 62e Quadra317",
+
     latitude: -16.7784539,
     longitude: -49.2244267,
   },
@@ -385,6 +378,7 @@ export const stores = [
     Bairro: "Jardim Olimpico",
     Rua: "Av Santa Rita , Nº: S/N",
     Complemento: "Quadra 11; Lote 02",
+
     latitude: -16.7472685,
     longitude: -49.2271712,
   },
@@ -396,6 +390,7 @@ export const stores = [
     Bairro: "Parque Trindade II",
     Rua: "Rod Antiga Go-352 , Nº: SN",
     Complemento: "Fundos Com Lote 11",
+
     latitude: -16.7482427,
     longitude: -49.2050999,
   },
@@ -407,6 +402,7 @@ export const stores = [
     Bairro: "Conjunto Fabiana",
     Rua: "R 4 , Nº: 20",
     Complemento: "Conjunto Fabiana",
+
     latitude: -16.7296445,
     longitude: -49.21547469999999,
   },
@@ -418,6 +414,7 @@ export const stores = [
     Bairro: "Fazenda Retiro",
     Rua: "Rod Br-153 , Nº: S/N",
     Complemento: "S/C",
+
     latitude: -16.8370928,
     longitude: -49.2526051,
   },
@@ -429,6 +426,7 @@ export const stores = [
     Bairro: "Jardim Dom Fernando I",
     Rua: "R Df217 , Nº: 418",
     Complemento: "Qd01 Lt06",
+
     latitude: -16.666482,
     longitude: -49.19198189999999,
   },
@@ -440,6 +438,7 @@ export const stores = [
     Bairro: "Jardim Novo Mundo",
     Rua: "Avenida New York , Nº: 1947",
     Complemento: "Qd 88 Lt 06",
+
     latitude: -16.6795892,
     longitude: -49.2253694,
   },
@@ -451,6 +450,7 @@ export const stores = [
     Bairro: "Jardim Novo Mundo",
     Rua: "R Luziania , Nº: 88",
     Complemento: "Quadra195 Lote 18/20/26/28",
+
     latitude: -16.6727839,
     longitude: -49.2113741,
   },
@@ -462,6 +462,7 @@ export const stores = [
     Bairro: "Jardim Novo Mundo",
     Rua: "Av Simon Bolivar , Nº: 728",
     Complemento: "Qd 181 Lt 12",
+
     latitude: -16.6768023,
     longitude: -49.2150353,
   },
@@ -473,6 +474,7 @@ export const stores = [
     Bairro: "Jardim Santo Antonio",
     Rua: "Av Pb 1 , Nº: 108",
     Complemento: "Quadra 21;Lote 05;Galpao 03",
+
     latitude: -16.7300725,
     longitude: -49.2495684,
   },
@@ -484,6 +486,7 @@ export const stores = [
     Bairro: "Setor Campinas",
     Rua: "Av Anhanguera , Nº: 8364",
     Complemento: "Quadra90 Lote 11",
+
     latitude: -16.6725718,
     longitude: -49.2868749,
   },
@@ -495,6 +498,7 @@ export const stores = [
     Bairro: "Setor Central",
     Rua: "R 4 , Nº: 810",
     Complemento: "Qd 24 Lt53",
+
     latitude: -16.6738927,
     longitude: -49.2598889,
   },
@@ -506,6 +510,7 @@ export const stores = [
     Bairro: "Setor Leste Universitario",
     Rua: "Av Anhanguera , Nº: 3189",
     Complemento: "Qd 67e Lt 63",
+
     latitude: -16.657588,
     longitude: -49.3031574,
   },
@@ -517,6 +522,7 @@ export const stores = [
     Bairro: "Vila Concordia",
     Rua: "R Couto De Magalhaes , Nº: 107",
     Complemento: "Sala 01",
+
     latitude: -16.6629498,
     longitude: -49.18410369999999,
   },
@@ -528,6 +534,7 @@ export const stores = [
     Bairro: "Vila Pedroso",
     Rua: "Avenida Anápolis , Nº: 3322",
     Complemento: "Qd 01 Lt 18",
+
     latitude: -16.6578332,
     longitude: -49.1782313,
   },
@@ -539,6 +546,7 @@ export const stores = [
     Bairro: "Setor Sul (Gama)",
     Rua: "Av Jose Bento Da Costa , Nº: S/N",
     Complemento: "Quadra01 Lote 22.",
+
     latitude: -16.6868912,
     longitude: -49.2647943,
   },
@@ -550,6 +558,7 @@ export const stores = [
     Bairro: "Jardim Cabral",
     Rua: "Rua Aureo Cabral , Nº: S/N",
     Complemento: "Qd 36 Lt 1,2",
+
     latitude: -16.0259826,
     longitude: -49.80973119999999,
   },
@@ -561,6 +570,7 @@ export const stores = [
     Bairro: "Residencial Ana Marcelo",
     Rua: "Av Ana Primo , Nº: SN",
     Complemento: "Esquina C/ Eixo Norte Sul",
+
     latitude: -16.0259909,
     longitude: -49.8097299,
   },
@@ -572,6 +582,7 @@ export const stores = [
     Bairro: "Setor Centro",
     Rua: "Av Avenida Derval De Castro , Nº: 101",
     Complemento: "Setor Centro",
+
     latitude: -16.0259826,
     longitude: -49.80973119999999,
   },
@@ -583,6 +594,7 @@ export const stores = [
     Bairro: "Conjunto Habitacional Nova ",
     Rua: "R C 7 , Nº: 114",
     Complemento: "Quadra 12;Lote 11;",
+
     latitude: -16.651467,
     longitude: -49.1593947,
   },
@@ -594,6 +606,7 @@ export const stores = [
     Bairro: "Conjunto Morada Do Morro",
     Rua: "Rua S 10 , Nº: S/N",
     Complemento: "Qd 55 Lt 6 Ao 9",
+
     latitude: -16.6908397,
     longitude: -49.1173966,
   },
@@ -605,6 +618,7 @@ export const stores = [
     Bairro: "Jardim Das Oliveiras I",
     Rua: "Av Senador Canedo , Nº: SN",
     Complemento: "Lote 17;Quadra 57;Terreo",
+
     latitude: -16.6568651,
     longitude: -49.1627634,
   },
@@ -616,6 +630,7 @@ export const stores = [
     Bairro: "Jardim Das Oliveiras II",
     Rua: "R Jo 12 , Nº: S/N",
     Complemento: "Quadra67 Lote 28",
+
     latitude: -16.6530435,
     longitude: -49.1513458,
   },
@@ -627,6 +642,7 @@ export const stores = [
     Bairro: "Jardim Todos Os Santos",
     Rua: "R Vereador Jose Eduardo , Nº: SN",
     Complemento: "Qd. 4-B, Lt. 14",
+
     latitude: -16.7138464,
     longitude: -49.0921692,
   },
@@ -638,6 +654,7 @@ export const stores = [
     Bairro: "Residencial Anuar Auad",
     Rua: "Avenida Dom Emanuel , Nº: S/N",
     Complemento: "Qd 02 Lt 10",
+
     latitude: -16.6952086,
     longitude: -49.1042464,
   },
@@ -649,6 +666,7 @@ export const stores = [
     Bairro: "Residencial Boa Esperanca",
     Rua: "Av Antonio Flavio Lima , Nº: 1853",
     Complemento: "Quadra03 Lote 01",
+
     latitude: -16.6709424,
     longitude: -49.1062159,
   },
@@ -660,6 +678,7 @@ export const stores = [
     Bairro: "Residencial Flor Do Ipe I",
     Rua: "Av Adriano Auad , Nº: S/N",
     Complemento: "Quadra10 Lote 09",
+
     latitude: -16.7001459,
     longitude: -49.0999618,
   },
@@ -671,19 +690,9 @@ export const stores = [
     Bairro: "Residencial Jardim Canedo III",
     Rua: "R Jc 40 , Nº: SN",
     Complemento: "Quadra 09;Lote 43",
+
     latitude: -16.6733464,
     longitude: -49.116872,
-  },
-  {
-    Parceiro: "Supermercado Paraíso",
-    Cidade: "Senador Canedo",
-    Estado: "GO",
-    CEP: "75260-243",
-    Bairro: "Residencial Paraiso",
-    Rua: "R Rp 9 , Nº: s/n",
-    Complemento: "Quadra 16;Lote 22;",
-    latitude: -16.6869298,
-    longitude: -49.0908385,
   },
   {
     Parceiro: "Supermercado França",
@@ -693,6 +702,7 @@ export const stores = [
     Bairro: "Residencial Prado",
     Rua: "R Rp 18 , Nº: 43",
     Complemento: "Qd. 32, Lt. 15",
+
     latitude: -16.7234846,
     longitude: -49.0925737,
   },
@@ -704,6 +714,7 @@ export const stores = [
     Bairro: "Residencial Ravena",
     Rua: "R Rr-01 , Nº: 139",
     Complemento: "Quadra20 Lote 37",
+
     latitude: -16.7360805,
     longitude: -49.081554,
   },
@@ -715,6 +726,7 @@ export const stores = [
     Bairro: "Residencial Rio Araguaia",
     Rua: "R Dourados , Nº: S/N",
     Complemento: "Qd 03 Lt 13",
+
     latitude: -16.6573037,
     longitude: -49.160685,
   },
@@ -726,6 +738,7 @@ export const stores = [
     Bairro: "Setor Central",
     Rua: "Av Santana , Nº: 55",
     Complemento: "Vila Santa Rosa",
+
     latitude: -16.7138464,
     longitude: -49.0921692,
   },
@@ -737,6 +750,7 @@ export const stores = [
     Bairro: "Vila Bonsucesso",
     Rua: "Rua 5 , Nº: 338",
     Complemento: "Quadra Q;Lote 19/32;",
+
     latitude: -16.7088967,
     longitude: -49.0872094,
   },
@@ -748,6 +762,7 @@ export const stores = [
     Bairro: "Vila Galvao",
     Rua: "R Ipameri , Nº: S/N",
     Complemento: "Qd. 2k, Lt. 23/24",
+
     latitude: -16.7138464,
     longitude: -49.0921692,
   },
@@ -759,6 +774,7 @@ export const stores = [
     Bairro: "Vila Sao Sebastiao",
     Rua: "Rua 104 , Nº: S/N",
     Complemento: "Qd. 73, Lt. 13 E 14",
+
     latitude: -16.7138464,
     longitude: -49.0921692,
   },
@@ -770,19 +786,9 @@ export const stores = [
     Bairro: "Heliópolis",
     Rua: "Avenida Júlio De Amorim Pereira , Nº: 134",
     Complemento: "Heliópolis",
+
     latitude: -22.7586643,
     longitude: -43.3622901,
-  },
-  {
-    Parceiro: "Rio Sul Supermercado - Jardim Leal",
-    Cidade: "Duque De Caxias",
-    Estado: "RJ",
-    CEP: "25035-430",
-    Bairro: "Jardim Leal",
-    Rua: "R Rio Grande Do Norte , Nº: S/N",
-    Complemento: "Qd 5 Lt 18",
-    latitude: -22.756765,
-    longitude: -43.3173933,
   },
   {
     Parceiro: "Rio Sul Supermercado - Primavera",
@@ -792,19 +798,9 @@ export const stores = [
     Bairro: "Jardim Primavera",
     Rua: "Estrada Rosário , Nº: S/N",
     Complemento: "Lt 01 Qd 14",
+
     latitude: -22.6903657,
     longitude: -43.2666564,
-  },
-  {
-    Parceiro: "Rio Sul Supermercado - Parque Lafaiete",
-    Cidade: "Duque De Caxias",
-    Estado: "RJ",
-    CEP: "25015-415",
-    Bairro: "Parque Lafaiete",
-    Rua: "Rua Vicente Renda , Nº: 527",
-    Complemento: "Quadra L",
-    latitude: -22.7948252,
-    longitude: -43.3283149,
   },
   {
     Parceiro: "Rio Sul Supermercado - Jardim Vila Nova",
@@ -814,6 +810,7 @@ export const stores = [
     Bairro: "Parque Nova Esperança",
     Rua: "Rua André , Nº: S/N",
     Complemento: "Lt 12 Qd E",
+
     latitude: -22.7202086,
     longitude: -43.31393,
   },
@@ -825,6 +822,7 @@ export const stores = [
     Bairro: "Vila São Luís",
     Rua: "Rua Expedicionário José Amaro , Nº: 195",
     Complemento: "Vila São Luís",
+
     latitude: -22.7836025,
     longitude: -43.2855097,
   },
@@ -836,19 +834,9 @@ export const stores = [
     Bairro: "Vila São Luís",
     Rua: "Rua Expedicionário José Amaro , Nº: 654",
     Complemento: "Qd. 12; Lt. 3, 4, 5, 6",
+
     latitude: -22.7767789,
     longitude: -43.2968632,
-  },
-  {
-    Parceiro: "Rio Sul Supermercado - Austin",
-    Cidade: "Nova Iguaçu",
-    Estado: "RJ",
-    CEP: "26087-150",
-    Bairro: "Austin",
-    Rua: "Rua Coronel Monteiro De Barros , Nº: 168",
-    Complemento: "Austin",
-    latitude: -22.7189545,
-    longitude: -43.524196,
   },
   {
     Parceiro: "Rio Sul Supermercado - Comendador Soares",
@@ -858,6 +846,7 @@ export const stores = [
     Bairro: "Comendador Soares",
     Rua: "Rua Tomás Fonseca , Nº: S/N",
     Complemento: "Comendador Soares",
+
     latitude: -22.7414517,
     longitude: -43.4851294,
   },
@@ -869,19 +858,9 @@ export const stores = [
     Bairro: "Centro",
     Rua: "Rua Vereador Marinho Hemeterio Oliveira , Nº: 150",
     Complemento: "Centro",
+
     latitude: -22.7180089,
     longitude: -43.5562638,
-  },
-  {
-    Parceiro: "Rio Sul Supermercado - Ricardo De Albuquerque",
-    Cidade: "Rio De Janeiro",
-    Estado: "RJ",
-    CEP: "21625-000",
-    Bairro: "Ricardo De Albuquerque",
-    Rua: "Estrada Marechal Alencastro , Nº: 2001",
-    Complemento: "Ricardo De Albuquerque",
-    latitude: -22.8407553,
-    longitude: -43.3992037,
   },
   {
     Parceiro: "Rio Sul Supermercado - Vilar Dos Teles",
@@ -891,6 +870,7 @@ export const stores = [
     Bairro: "Vilar Dos Teles",
     Rua: "Av Comendador Teles , Nº: 2327",
     Complemento: "Loja Vilar Dos Teles",
+
     latitude: -22.7586643,
     longitude: -43.3622901,
   },
@@ -902,6 +882,7 @@ export const stores = [
     Bairro: "Loteamento Jardim Boa Sorte",
     Rua: "Rodovia To 222 Apm 16 , Nº: S/N",
     Complemento: "Km 1.3",
+
     latitude: -7.1806393,
     longitude: -48.1974597,
   },
@@ -913,6 +894,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "Av Bernardo Sayão , Nº: 1794",
     Complemento: "Bernardo Sayão, Centro",
+
     latitude: -8.058299999999999,
     longitude: -48.4765549,
   },
@@ -923,6 +905,7 @@ export const stores = [
     CEP: "77700-000",
     Bairro: "Centro",
     Rua: "Av Bernardo Sayão , Nº: 1399",
+
     latitude: -8.8306319,
     longitude: -48.5117804,
   },
@@ -934,6 +917,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "Av Bernardo Sayão , Nº: 1956",
     Complemento: "Centro",
+
     latitude: -8.836021600000002,
     longitude: -48.5124708,
   },
@@ -945,6 +929,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "R Pernambuco Esquina Com Rua Mato Grosso , Nº: 1359",
     Complemento: "Quadra08 Lote 03",
+
     latitude: -8.841089199999999,
     longitude: -48.5105523,
   },
@@ -956,6 +941,7 @@ export const stores = [
     Bairro: "Plano Diretor Norte",
     Rua: "Quadra Arne 51 Alameda 17 , Nº: 23",
     Complemento: "404 Norte Alameda 17",
+
     latitude: -10.1686677,
     longitude: -48.3396301,
   },
@@ -965,8 +951,9 @@ export const stores = [
     Estado: "TO",
     CEP: "77020-542",
     Bairro: "Plano Diretor Sul",
-    Rua: "Acsv Se 23 , Nº: S/N",
+    Rua: " Acsv Se 23 , Nº: S/N",
     Complemento: "Lt 08 Andar Terreo",
+
     latitude: -10.2196474,
     longitude: -48.33896439999999,
   },
@@ -978,6 +965,7 @@ export const stores = [
     Bairro: "Plano Diretor Sul",
     Rua: "Quadra Acsv Se 102 , Nº: S/N",
     Complemento: "Lote 18",
+
     latitude: -10.2431394,
     longitude: -48.320953,
   },
@@ -989,6 +977,7 @@ export const stores = [
     Bairro: "Plano Diretor Sul",
     Rua: "Quadra Arse 102 Avenida Ns 4 , Nº: 23",
     Complemento: "Alameda 03, Lote 18",
+
     latitude: -10.2480753,
     longitude: -48.3240996,
   },
@@ -1000,6 +989,7 @@ export const stores = [
     Bairro: "Setor Morada Do Sol ",
     Rua: "Avenida Taquarussu , Nº: S/N",
     Complemento: "Qd 40a Lt 01 - Morada Do Sol",
+
     latitude: -10.3573511,
     longitude: -48.2841556,
   },
@@ -1011,6 +1001,7 @@ export const stores = [
     Bairro: "Setor Aeroporto",
     Rua: "Av Joao Damasceno De Sa , Nº: 1400",
     Complemento: "Sala C",
+
     latitude: -8.975519499999999,
     longitude: -48.1736365,
   },
@@ -1022,6 +1013,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "Pc 14 De Julho , Nº: 95",
     Complemento: "Pç. 14 Julho, Centro",
+
     latitude: -18.7216992,
     longitude: -49.20401,
   },
@@ -1033,6 +1025,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "R Nove , Nº: 720",
     Complemento: "R. Nove, Centro",
+
     latitude: -18.7216992,
     longitude: -49.20401,
   },
@@ -1044,6 +1037,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "R Coronel Vilela , Nº: 169",
     Complemento: "R. Coronel Vilela",
+
     latitude: -18.8705008,
     longitude: -48.879979,
   },
@@ -1055,6 +1049,7 @@ export const stores = [
     Bairro: "Santa Maria",
     Rua: "R Dezesseis De Setembro , Nº: 790",
     Complemento: "Av. Dezesseis De Setembro",
+
     latitude: -18.8680091,
     longitude: -48.8705594,
   },
@@ -1066,6 +1061,7 @@ export const stores = [
     Bairro: "Edna",
     Rua: "Av Brasilia , Nº: 700",
     Complemento: "Av. Brasilia, Edna",
+
     latitude: -19.3079509,
     longitude: -48.9265899,
   },
@@ -1077,6 +1073,7 @@ export const stores = [
     Bairro: "Tiradentes",
     Rua: "Av Lindolfo Ferreira Borges , Nº: 149",
     Complemento: "Av. Lindolfo Ferreira Borges, ",
+
     latitude: -18.6003602,
     longitude: -48.687191,
   },
@@ -1088,6 +1085,7 @@ export const stores = [
     Bairro: "Aclimação",
     Rua: "Avenida Dos Ferreiras , Nº: 305",
     Complemento: "Av. Dos Ferreiras",
+
     latitude: -18.9818735,
     longitude: -48.268519,
   },
@@ -1099,6 +1097,7 @@ export const stores = [
     Bairro: "Brasil",
     Rua: "Avenida Maranhão , Nº: 568",
     Complemento: "Av. Maranhao",
+
     latitude: -18.9818735,
     longitude: -48.268519,
   },
@@ -1110,6 +1109,7 @@ export const stores = [
     Bairro: "Shopping Park",
     Rua: "Rua Osvaldo Neves , Nº: 12",
     Complemento: "Shopping Park",
+
     latitude: -18.9818735,
     longitude: -48.268519,
   },
@@ -1120,6 +1120,7 @@ export const stores = [
     CEP: "75804-363",
     Bairro: "Setor Das Mansoes",
     Rua: "Av Veriano De Oliveira Lima , Nº: 2315",
+
     latitude: -17.8840694,
     longitude: -51.73374930000001,
   },
@@ -1130,18 +1131,9 @@ export const stores = [
     CEP: "75800-001",
     Bairro: "Setor Industrial (Gama)",
     Rua: "Rod Br 364 Com Br 060 , Nº: S/N",
+
     latitude: -17.9170131,
     longitude: -51.7401017,
-  },
-  {
-    Parceiro: "Mercadao Supermercado",
-    Cidade: "Jatai",
-    Estado: "GO",
-    CEP: "75800-257",
-    Bairro: "Setor Iracema",
-    Rua: "Rua Miranda De Carvalho , Nº: 898",
-    latitude: -17.8919061,
-    longitude: -51.7265878,
   },
   {
     Parceiro: "Supermercado Tosta",
@@ -1150,6 +1142,7 @@ export const stores = [
     CEP: "75803-017",
     Bairro: "Vila Fátima",
     Rua: "Rua Deputado Honorato De Carvalho , Nº: S/N",
+
     latitude: -17.8883078,
     longitude: -51.7232962,
   },
@@ -1160,18 +1153,9 @@ export const stores = [
     CEP: "75800-108",
     Bairro: "Vila Santa Maria",
     Rua: "Rua Dom Pedro Ii , Nº: 1659",
+
     latitude: -17.8888441,
     longitude: -51.72415280000001,
-  },
-  {
-    Parceiro: "Supermercado Jataí",
-    Cidade: "Jatai",
-    Estado: "GO",
-    CEP: "75800-145",
-    Bairro: "Vila Santa Maria",
-    Rua: "R Riachuelo , Nº: 1811",
-    latitude: -17.8848846,
-    longitude: -51.7267181,
   },
   {
     Parceiro: "Pãodelli",
@@ -1180,6 +1164,7 @@ export const stores = [
     CEP: "75830-000",
     Bairro: "Bairro Sao Bento",
     Rua: "R Avenida  Antonio Carlos Paniago , Nº: S/N",
+
     latitude: -17.5663873,
     longitude: -52.5646341,
   },
@@ -1190,6 +1175,7 @@ export const stores = [
     CEP: "75830-122",
     Bairro: "Centro",
     Rua: "Rua Quinze , Nº: 94",
+
     latitude: -17.5600557,
     longitude: -52.5492522,
   },
@@ -1200,6 +1186,7 @@ export const stores = [
     CEP: "75833-130",
     Bairro: "Setor Aeroporto",
     Rua: "Rua Vinte Dois , Nº: S/N",
+
     latitude: -17.5543453,
     longitude: -52.550948,
   },
@@ -1210,6 +1197,7 @@ export const stores = [
     CEP: "75835-059",
     Bairro: "Setor Marcelino Teodoro ",
     Rua: "Avenida M 1 , Nº: S/N",
+
     latitude: -17.5600557,
     longitude: -52.5492522,
   },
@@ -1220,6 +1208,7 @@ export const stores = [
     CEP: "75860-000",
     Bairro: "Centro",
     Rua: "Rua Jose Joaquim Cabral , Nº: 113",
+
     latitude: -18.4468838,
     longitude: -50.4553752,
   },
@@ -1230,6 +1219,7 @@ export const stores = [
     CEP: "75860-000",
     Bairro: "Chacaras",
     Rua: "Av Leocadio De Souza Reis , Nº: 48",
+
     latitude: -18.4495743,
     longitude: -50.4510812,
   },
@@ -1240,18 +1230,9 @@ export const stores = [
     CEP: "75902-615",
     Bairro: "Jardim America",
     Rua: "Rua Geraldo Andrade , Nº: 745",
+
     latitude: -17.7971725,
     longitude: -50.9474068,
-  },
-  {
-    Parceiro: "Comercial Reis - Rio Verde - Jardim Presidente",
-    Cidade: "Rio Verde",
-    Estado: "GO",
-    CEP: "75908-420",
-    Bairro: "Jardim Presidente",
-    Rua: "Av Presidente Vargas , Nº: 319",
-    latitude: -17.8030969,
-    longitude: -50.9458567,
   },
   {
     Parceiro: "Campeão Supermercado - Parque Dos Buritis Ii",
@@ -1260,6 +1241,7 @@ export const stores = [
     CEP: "75907-390",
     Bairro: "Parque Dos Buritis",
     Rua: "Rua 2 , Nº: 629",
+
     latitude: -17.796748,
     longitude: -50.93453299999999,
   },
@@ -1270,6 +1252,7 @@ export const stores = [
     CEP: "75907-256",
     Bairro: "Parque Solar Do Agreste A",
     Rua: "Rua 11 , Nº: S/N",
+
     latitude: -17.806786,
     longitude: -50.935809,
   },
@@ -1280,6 +1263,7 @@ export const stores = [
     CEP: "75909-651",
     Bairro: "Residencial Canaã",
     Rua: "Rua Coronel Vaiano , Nº: 400",
+
     latitude: -17.7971725,
     longitude: -50.9474068,
   },
@@ -1290,6 +1274,7 @@ export const stores = [
     CEP: "75904-610",
     Bairro: "Santo Agostinho",
     Rua: "Rua Mariana Da Silveira Leão , Nº: 22",
+
     latitude: -17.7800529,
     longitude: -50.9054876,
   },
@@ -1299,7 +1284,8 @@ export const stores = [
     Estado: "GO",
     CEP: "75901-220",
     Bairro: "Setor Central",
-    Rua: "Joaquim Vaz Do Nascimento , Nº: 394",
+    Rua: " Joaquim Vaz Do Nascimento , Nº: 394",
+
     latitude: -17.796748,
     longitude: -50.93453299999999,
   },
@@ -1310,6 +1296,7 @@ export const stores = [
     CEP: "75908-780",
     Bairro: "Setor Morada Do Sol",
     Rua: "Rua Elizabeth Campos , Nº: S/N",
+
     latitude: -17.7948969,
     longitude: -50.9499915,
   },
@@ -1320,6 +1307,7 @@ export const stores = [
     CEP: "75906-010",
     Bairro: "Vila Renovacao",
     Rua: "Av Sul Goiana , Nº: S/N",
+
     latitude: -17.796748,
     longitude: -50.93453299999999,
   },
@@ -1330,6 +1318,7 @@ export const stores = [
     CEP: "75920-000",
     Bairro: "Conjunto Habitacional Nossa ",
     Rua: "Rua B , Nº: 1150",
+
     latitude: -17.8182858,
     longitude: -50.6039587,
   },
@@ -1340,29 +1329,9 @@ export const stores = [
     CEP: "75920-000",
     Bairro: "Nossa Senhora Aparecida",
     Rua: "Rod Br 050, Km 66,3 , Nº: 755",
+
     latitude: -17.8119091,
     longitude: -50.61440260000001,
-  },
-  {
-    Parceiro: "Comercial Reis - Santa Helena De Goiás",
-    Cidade: "Santa Helena De Goiás",
-    Estado: "GO",
-    CEP: "75920-000",
-    Bairro: "Pedrolina",
-    Rua: "Av Francisco Lourenco Goulart , Nº: 670",
-    latitude: -17.8111805,
-    longitude: -50.5862844,
-  },
-  {
-    Parceiro: "Comercial Reis - Bom Jesus - Centro",
-    Cidade: "Bom Jesus",
-    Estado: "GO",
-    CEP: "75570-000",
-    Bairro: "Centro",
-    Rua: "Av Goiás , Nº: 770",
-    Complemento: "Avenida  Goias, Nº 770-A",
-    latitude: -18.2145697,
-    longitude: -49.7424182,
   },
   {
     Parceiro: "Comercial Reis - Caldas Novas - Condominio Das Nações",
@@ -1372,41 +1341,9 @@ export const stores = [
     Bairro: "Condominio Das Nacoes",
     Rua: "Av Das Nacoes , Nº: SN",
     Complemento: "Condominio Das Nacoes",
+
     latitude: -17.7162974,
     longitude: -48.7767446,
-  },
-  {
-    Parceiro: "Comercial Reis - Catalão - São Francisco",
-    Cidade: "Catalao",
-    Estado: "GO",
-    CEP: "75707-330",
-    Bairro: "Sao Francisco",
-    Rua: "R Joao Rabelo De Mesquita , Nº: 504",
-    Complemento: "Sao Francisco",
-    latitude: -18.1712751,
-    longitude: -47.9385185,
-  },
-  {
-    Parceiro: "Comercial Reis - Catalão - São João",
-    Cidade: "Catalao",
-    Estado: "GO",
-    CEP: "75703-140",
-    Bairro: "Sao Joao",
-    Rua: "Av Sao Joao , Nº: 503",
-    Complemento: "Sao Joao",
-    latitude: -18.1660958,
-    longitude: -47.9444845,
-  },
-  {
-    Parceiro: "Comercial Reis - Goiatuba - Centro",
-    Cidade: "Goiatuba",
-    Estado: "GO",
-    CEP: "75600-000",
-    Bairro: "Centro",
-    Rua: "Av Presidente Vargas , Nº: 1321",
-    Complemento: "Centro",
-    latitude: -18.2145697,
-    longitude: -49.7424182,
   },
   {
     Parceiro: "Supermercado Abc - Centro",
@@ -1415,6 +1352,7 @@ export const stores = [
     CEP: "75810-000",
     Bairro: "Centro",
     Rua: "Av Sao Sebastiao , Nº: 65",
+
     latitude: -18.7636123,
     longitude: -51.3445488,
   },
@@ -1425,30 +1363,9 @@ export const stores = [
     CEP: "75513-405",
     Bairro: "Afonso Pena",
     Rua: "Avenida Washington Luiz , Nº: 1033",
+
     latitude: -18.4081121,
     longitude: -49.2120906,
-  },
-  {
-    Parceiro: "Comercial Reis - Itumbiara - Afonso Pena",
-    Cidade: "Itumbiara",
-    Estado: "GO",
-    CEP: "75513-435",
-    Bairro: "Afonso Pena",
-    Rua: "Av Osvaldo Cruz , Nº: 120",
-    Complemento: "Afonso Pena",
-    latitude: -18.4075134,
-    longitude: -49.2115612,
-  },
-  {
-    Parceiro: "Comercial Reis - Itumbiara - Benjamin Constant",
-    Cidade: "Itumbiara",
-    Estado: "GO",
-    CEP: "75503-050",
-    Bairro: "Centro",
-    Rua: "R Benjamin Constant , Nº: 478",
-    Complemento: "Centro",
-    latitude: -18.4182495,
-    longitude: -49.2207223,
   },
   {
     Parceiro: "Supermercado Lucas - Afonso Pena",
@@ -1458,19 +1375,9 @@ export const stores = [
     Bairro: "Centro",
     Rua: "Av Afonso Pena , Nº: 1292",
     Complemento: "Centro",
+
     latitude: -18.4063625,
     longitude: -49.21073149999999,
-  },
-  {
-    Parceiro: "Comercial Reis - Itumbiara - Centro",
-    Cidade: "Itumbiara",
-    Estado: "GO",
-    CEP: "75503-380",
-    Bairro: "Centro",
-    Rua: "Av Afonso Pena , Nº: 247",
-    Complemento: "Loja 3",
-    latitude: -18.4166854,
-    longitude: -49.2170785,
   },
   {
     Parceiro: "Supermercado Lucas - Novo Horizonte",
@@ -1480,6 +1387,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "Rua Paranaíba, 545 , Nº: 50",
     Complemento: "R. Santo Amaro, ",
+
     latitude: -18.4167106,
     longitude: -49.2170958,
   },
@@ -1491,29 +1399,9 @@ export const stores = [
     Bairro: "Conjunto Habitacional Santa ",
     Rua: "Avenida Equador , Nº: 253",
     Complemento: "Conjunto Habitacional Santa He",
+
     latitude: -18.4121139,
     longitude: -49.2670762,
-  },
-  {
-    Parceiro: "Comercial Reis - Itumbiara - Morada Do Sol",
-    Cidade: "Itumbiara",
-    Estado: "GO",
-    CEP: "75513-579",
-    Bairro: "Residencial Morada Do Sol",
-    Rua: "Rua Joao Paulo Ii , Nº: 19",
-    Complemento: "Residencial Morada Do Sol",
-    latitude: -18.4282357,
-    longitude: -49.2223374,
-  },
-  {
-    Parceiro: "Comercial Reis - Itumbiara - Santos Dumont",
-    Cidade: "Itumbiara",
-    Estado: "GO",
-    CEP: "75530-275",
-    Bairro: "Santos Dumont",
-    Rua: "Av Santos Dumont , Nº: 1150",
-    latitude: -18.4172651,
-    longitude: -49.2288855,
   },
   {
     Parceiro: "Supermercado Lucas - São João",
@@ -1523,30 +1411,9 @@ export const stores = [
     Bairro: "Sao Joao",
     Rua: "R Castelo Branco , Nº: 331",
     Complemento: "Sao Joao",
+
     latitude: -18.4167106,
     longitude: -49.2170958,
-  },
-  {
-    Parceiro: "Comercial Reis - Morrinhos - Centro",
-    Cidade: "Morrinhos",
-    Estado: "GO",
-    CEP: "75650-000",
-    Bairro: "Setor Centro",
-    Rua: "Av Doutor Gumercindo Otero , Nº: 11",
-    Complemento: "Setor Centro",
-    latitude: -17.7356128,
-    longitude: -49.1118878,
-  },
-  {
-    Parceiro: "Supermercado Duze",
-    Cidade: "Portelandia",
-    Estado: "GO",
-    CEP: "75843-000",
-    Bairro: "Setor Sul",
-    Rua: "Av Goiás , Nº: S/N",
-    Complemento: "Quadra 25 Lote 03",
-    latitude: -17.3569965,
-    longitude: -52.6782084,
   },
   {
     Parceiro: "Tatico - Aguas Lindas 2",
@@ -1555,6 +1422,7 @@ export const stores = [
     CEP: "72920-004",
     Bairro: "Jardim Da Barragem III",
     Rua: "R Quadra Gleba , Nº: 02",
+
     latitude: -15.7417571,
     longitude: -48.2714072,
   },
@@ -1566,6 +1434,7 @@ export const stores = [
     Bairro: "Parque Da Barragem Setor ",
     Rua: "Q 45 Conjunto B , Nº: SN",
     Complemento: "Loja 03/04",
+
     latitude: -15.7417571,
     longitude: -48.2714072,
   },
@@ -1575,8 +1444,9 @@ export const stores = [
     Estado: "DF",
     CEP: "71991-720",
     Bairro: "Área De Desenvolvimento ",
-    Rua: "Ade Conjunto 31 , Nº: S/N",
+    Rua: " Ade Conjunto 31 , Nº: S/N",
     Complemento: "Ade Aguas Claras Conjunto 31 L",
+
     latitude: -15.8738026,
     longitude: -48.0284378,
   },
@@ -1588,6 +1458,7 @@ export const stores = [
     Bairro: "Areal (Aguas Claras)",
     Rua: "Avenida Águas Claras Qs 08 , Nº: S/N",
     Complemento: "Qs 8 Lote 11 Conj 230 Bloco B",
+
     latitude: -15.8637675,
     longitude: -48.02450349999999,
   },
@@ -1597,8 +1468,9 @@ export const stores = [
     Estado: "DF",
     CEP: "70310-500",
     Bairro: "Asa Norte",
-    Rua: "Eq 404/405 Bl A , Nº: SN",
+    Rua: " Eq 404/405 Bl A , Nº: SN",
     Complemento: "Eqn 404/405 S/N Bloco A",
+
     latitude: -15.7730281,
     longitude: -47.8753095,
   },
@@ -1610,6 +1482,7 @@ export const stores = [
     Bairro: "Asa Sul",
     Rua: "Q Shcs Eq 406/407 , Nº: S/N",
     Complemento: "Eqs 406/407 S/N Bloco A",
+
     latitude: -15.8202434,
     longitude: -47.9045093,
   },
@@ -1619,8 +1492,9 @@ export const stores = [
     Estado: "DF",
     CEP: "70310-500",
     Bairro: "Asa Sul",
-    Rua: "Eq 304/305 , Nº: SHCS3",
+    Rua: " Eq 304/305 , Nº: SHCS3",
     Complemento: "Shcs 304/305 S/N Bloco A",
+
     latitude: -15.8202434,
     longitude: -47.9045093,
   },
@@ -1630,8 +1504,9 @@ export const stores = [
     Estado: "DF",
     CEP: "70310-500",
     Bairro: "Asa Sul",
-    Rua: "Eq 308/309 , Nº: S/N",
+    Rua: " Eq 308/309 , Nº: S/N",
     Complemento: "Shcs 308/309 S/N Bloco A",
+
     latitude: -15.8202434,
     longitude: -47.9045093,
   },
@@ -1643,6 +1518,7 @@ export const stores = [
     Bairro: "Asa Sul",
     Rua: "Rua Shcs , Nº: 516",
     Complemento: "Shcs Cr Qd 516 Bl A S/N Loja 4",
+
     latitude: -15.8202434,
     longitude: -47.9045093,
   },
@@ -1654,6 +1530,7 @@ export const stores = [
     Bairro: "Ceilandia Sul (Ceilandia)",
     Rua: "Q Qnn 28 , Nº: S/N",
     Complemento: "Area Especial B Loja 01",
+
     latitude: -15.8333512,
     longitude: -48.1032767,
   },
@@ -1663,8 +1540,9 @@ export const stores = [
     Estado: "DF",
     CEP: "70310-500",
     Bairro: "Guará II",
-    Rua: "Sria Q E 2 , Nº: SN",
+    Rua: " Sria Q E 2 , Nº: SN",
     Complemento: "Area Especial K",
+
     latitude: -15.8256474,
     longitude: -47.9839754,
   },
@@ -1676,6 +1554,7 @@ export const stores = [
     Bairro: "Norte (Aguas Claras)",
     Rua: "Av Das Castanheiras, Lote , Nº: 3700",
     Complemento: "Bloco Hipermercado",
+
     latitude: -15.741146,
     longitude: -47.902914,
   },
@@ -1685,8 +1564,9 @@ export const stores = [
     Estado: "DF",
     CEP: "70310-500",
     Bairro: "Plano Piloto",
-    Rua: "Eq 508/509 , Nº: S/N",
+    Rua: " Eq 508/509 , Nº: S/N",
     Complemento: "Bloco A",
+
     latitude: -15.7631289,
     longitude: -47.89044819999999,
   },
@@ -1697,7 +1577,8 @@ export const stores = [
     CEP: "72601-214",
     Bairro: "Recanto Das Emas",
     Rua: "Q Quadra 106 , Nº: LOTE1",
-    Complemento: "",
+    Complemento: " ",
+
     latitude: -15.9090602,
     longitude: -48.0650169,
   },
@@ -1709,6 +1590,7 @@ export const stores = [
     Bairro: "Riacho Fundo I",
     Rua: "Q Qs 12 , Nº: SN",
     Complemento: "Lote C",
+
     latitude: -15.8897213,
     longitude: -48.0181692,
   },
@@ -1719,7 +1601,8 @@ export const stores = [
     CEP: "71880-513",
     Bairro: "Riacho Fundo II",
     Rua: "Q Qn 5a Conjunto 3 , Nº: LT05",
-    Complemento: "",
+    Complemento: " ",
+
     latitude: -15.8897213,
     longitude: -48.0181692,
   },
@@ -1731,6 +1614,7 @@ export const stores = [
     Bairro: "Samambaia Norte ",
     Rua: "Q Quadra 201 Conjunto 1 , Nº: SN",
     Complemento: "Lote 03 04 E 05",
+
     latitude: -15.8717577,
     longitude: -48.0914094,
   },
@@ -1740,8 +1624,9 @@ export const stores = [
     Estado: "DF",
     CEP: "72304-101",
     Bairro: "Samambaia Sul (Samambaia)",
-    Rua: "Qn 122 Conjunto 1 , Nº: S/N",
+    Rua: " Qn 122 Conjunto 1 , Nº: S/N",
     Complemento: "Lt 03",
+
     latitude: -15.826691,
     longitude: -47.92182039999999,
   },
@@ -1753,6 +1638,7 @@ export const stores = [
     Bairro: "Samambaia Sul (Samambaia)",
     Rua: "Q Qn 312 Conjunto 2 Lote , Nº: 1E2",
     Complemento: "Loja 01",
+
     latitude: -15.8705748,
     longitude: -48.0902431,
   },
@@ -1764,6 +1650,7 @@ export const stores = [
     Bairro: "Santa Maria",
     Rua: "Q Ac 200 Conjunto C , Nº: LOTE2",
     Complemento: "Lote 03 04 E 05",
+
     latitude: -16.0036155,
     longitude: -47.9872688,
   },
@@ -1775,19 +1662,9 @@ export const stores = [
     Bairro: "Santa Maria",
     Rua: "Rodovia Br-040 , Nº: 2",
     Complemento: "Rod Br-040 Número 02",
+
     latitude: -16.0803853,
     longitude: -47.9867868,
-  },
-  {
-    Parceiro: "Pão De Açúcar - Bsb - Lago Sul - Shi S Cl Qis Cj F",
-    Cidade: "Brasília",
-    Estado: "DF",
-    CEP: "71615-560",
-    Bairro: "Setor De Habitações ",
-    Rua: "Shis Qi 5 Bloco F , Nº: 80",
-    Complemento: "Loja 210 Sub Solo",
-    latitude: -15.8435089,
-    longitude: -47.8504629,
   },
   {
     Parceiro: "Super Adega - Jardim Botanico",
@@ -1796,7 +1673,8 @@ export const stores = [
     CEP: "71681-730",
     Bairro: "Setor Habitacional Jardim ",
     Rua: "Av Bela Vista Lotes L, N E M Parte 02 , Nº: S/N",
-    Complemento: "",
+    Complemento: " ",
+
     latitude: -15.7940992,
     longitude: -47.9478684,
   },
@@ -1808,6 +1686,7 @@ export const stores = [
     Bairro: "Setor Habitacional Taquari ",
     Rua: "St Shin , Nº: S/N",
     Complemento: "Qi 02 Ae Bloco A Loja 180 Terr",
+
     latitude: -15.7231612,
     longitude: -47.8873283,
   },
@@ -1819,6 +1698,7 @@ export const stores = [
     Bairro: "Setor Habitacional Taquari ",
     Rua: "Av Comercial , Nº: S/N",
     Complemento: "Shtq Trecho 1 Avenida Comercia",
+
     latitude: -15.826691,
     longitude: -47.92182039999999,
   },
@@ -1828,8 +1708,9 @@ export const stores = [
     Estado: "DF",
     CEP: "72005-300",
     Bairro: "Setor Habitacional Vicente ",
-    Rua: "Eptg Chacara 53 D/E , Nº: SN",
-    Complemento: "",
+    Rua: " Eptg Chacara 53 D/E , Nº: SN",
+    Complemento: " ",
+
     latitude: -15.8153243,
     longitude: -48.0098739,
   },
@@ -1839,8 +1720,9 @@ export const stores = [
     Estado: "DF",
     CEP: "72005-305",
     Bairro: "Setor Habitacional Vicente ",
-    Rua: "Eptg Chácara 54 , Nº: S/N",
+    Rua: " Eptg Chácara 54 , Nº: S/N",
     Complemento: "Eptg Chacara 54 S/N Conjunto H",
+
     latitude: -15.8309852,
     longitude: -48.0357169,
   },
@@ -1852,6 +1734,7 @@ export const stores = [
     Bairro: "Setor Habitacional Vicente ",
     Rua: "R 12 Chacara 315 , Nº: SN",
     Complemento: "Lote 01 Loja 02",
+
     latitude: -15.795372,
     longitude: -48.0489425,
   },
@@ -1862,6 +1745,7 @@ export const stores = [
     CEP: "72444-220",
     Bairro: "Setor Leste (Gama)",
     Rua: "Área Especial De Indústria 2 Ambev , Nº: 01",
+
     latitude: -16.0234586,
     longitude: -48.0541712,
   },
@@ -1871,8 +1755,9 @@ export const stores = [
     Estado: "DF",
     CEP: "70610-200",
     Bairro: "Setor Sudoeste",
-    Rua: "Ccsw 06 , Nº: S/N",
+    Rua: " Ccsw 06 , Nº: S/N",
     Complemento: "Bloco 4/5",
+
     latitude: -15.7973019,
     longitude: -47.9286267,
   },
@@ -1884,6 +1769,7 @@ export const stores = [
     Bairro: "Sul (Aguas Claras)",
     Rua: "Q 206 Lote , Nº: 02",
     Complemento: "Supermercado",
+
     latitude: -15.8372013,
     longitude: -48.0258046,
   },
@@ -1895,6 +1781,7 @@ export const stores = [
     Bairro: "Taguatinga Norte ",
     Rua: "Q Cnf 2 , Nº: 12/14",
     Complemento: "Taguatinga Norte (Taguatinga)",
+
     latitude: -15.8016557,
     longitude: -48.0586873,
   },
@@ -1906,6 +1793,7 @@ export const stores = [
     Bairro: "Taguatinga Norte ",
     Rua: "Rua Qi 18 , Nº: 21",
     Complemento: "Lote 01,03,05 E 07",
+
     latitude: -15.8016557,
     longitude: -48.0586873,
   },
@@ -1916,7 +1804,8 @@ export const stores = [
     CEP: "72155-506",
     Bairro: "Taguatinga Norte ",
     Rua: "Q Qnl 2 Area Especial 3 Parte , Nº: 04",
-    Complemento: "",
+    Complemento: " ",
+
     latitude: -15.8016557,
     longitude: -48.0586873,
   },
@@ -1927,6 +1816,7 @@ export const stores = [
     CEP: "72035-520",
     Bairro: "Taguatinga Sul (Taguatinga)",
     Rua: "Q Csg 20 Lote 02 Parte , Nº: 04",
+
     latitude: -15.8740597,
     longitude: -48.031111,
   },
@@ -1938,6 +1828,7 @@ export const stores = [
     Bairro: "Parque Araguari",
     Rua: "Q Quadra 18 , Nº: SN",
     Complemento: "Lote 18",
+
     latitude: -16.1002842,
     longitude: -47.95614399999999,
   },
@@ -1948,7 +1839,8 @@ export const stores = [
     CEP: "73813-010",
     Bairro: "Formosinha",
     Rua: "Av Brasilia , Nº: S/N",
-    Complemento: "",
+    Complemento: " ",
+
     latitude: -15.5580739,
     longitude: -47.3209381,
   },
@@ -1960,6 +1852,7 @@ export const stores = [
     Bairro: "Jardim Goias",
     Rua: "Av E E Rua 12 , Nº: S/N",
     Complemento: "Av E Quadra B-03",
+
     latitude: -16.6938273,
     longitude: -49.23853390000001,
   },
@@ -1971,6 +1864,7 @@ export const stores = [
     Bairro: "Setor Bueno",
     Rua: "Av T 15 C/ Rua T 68 , Nº: 522",
     Complemento: "Quadra135 Lote 04e",
+
     latitude: -16.7100579,
     longitude: -49.2727327,
   },
@@ -1982,6 +1876,7 @@ export const stores = [
     Bairro: "Setor Bueno",
     Rua: "Av T 63 C/ Avenida T-5 E Rua T-15 , Nº: 996",
     Complemento: "Quadra151 Lote 01/02e",
+
     latitude: -16.7140091,
     longitude: -49.2600297,
   },
@@ -1993,6 +1888,7 @@ export const stores = [
     Bairro: "Setor Oeste",
     Rua: "Av Republica Do Libano , Nº: 2079",
     Complemento: "Av.Republica Do Libano Sn Quad",
+
     latitude: -16.677148,
     longitude: -49.2703653,
   },
@@ -2004,6 +1900,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "R Coronel Antonio Carneiro , Nº: 132",
     Complemento: "Centro",
+
     latitude: -16.2560262,
     longitude: -47.952747,
   },
@@ -2015,6 +1912,7 @@ export const stores = [
     Bairro: "Diogo Machado De Araújo",
     Rua: "R Modesto Machado , Nº: SN",
     Complemento: "Quadra52 Lote 5-6-7",
+
     latitude: -16.2525021,
     longitude: -47.96124589999999,
   },
@@ -2026,6 +1924,7 @@ export const stores = [
     Bairro: "Parque Estrela Dalva I",
     Rua: "Av Alfredo Nasser , Nº: S/N",
     Complemento: "Quadra47 Lote 001 1",
+
     latitude: -16.2561662,
     longitude: -47.91934699999999,
   },
@@ -2037,6 +1936,7 @@ export const stores = [
     Bairro: "Parque Jk",
     Rua: "Av Neylo Rolim , Nº: SN",
     Complemento: "Quadra57 Lote 05 E 06",
+
     latitude: -16.237706,
     longitude: -47.94226399999999,
   },
@@ -2048,6 +1948,7 @@ export const stores = [
     Bairro: "Setor Fumal",
     Rua: "R Elizene Dos Santos Santana , Nº: SN",
     Complemento: "Quadra77 Lote 01",
+
     latitude: -16.2666459,
     longitude: -47.95769689999999,
   },
@@ -2059,6 +1960,7 @@ export const stores = [
     Bairro: "Setor Norte Maravilha",
     Rua: "R Doutor Sebastiao Carneiro De Mendonca , Nº: SN",
     Complemento: "Quadra03 Lote 04-05",
+
     latitude: -16.2353916,
     longitude: -47.94532299999999,
   },
@@ -2068,8 +1970,9 @@ export const stores = [
     Estado: "GO",
     CEP: "72854-718",
     Bairro: "Vera Cruz",
-    Rua: "Quadra 6 , Nº: S/N",
+    Rua: " Quadra 6 , Nº: S/N",
     Complemento: "Chacaras",
+
     latitude: -16.2506453,
     longitude: -47.9261172,
   },
@@ -2081,6 +1984,7 @@ export const stores = [
     Bairro: "Morada Da Colina",
     Rua: "Av Nicomedes Alves Dos Santos , Nº: 2222",
     Complemento: "Pio Xii",
+
     latitude: -18.9418742,
     longitude: -48.2742623,
   },
@@ -2092,6 +1996,7 @@ export const stores = [
     Bairro: "Chacaras Ypiranga A",
     Rua: "Q 901 Sul Alameda 15 , Nº: SN",
     Complemento: "Lote 15",
+
     latitude: -16.0522681,
     longitude: -47.9646143,
   },
@@ -2103,6 +2008,7 @@ export const stores = [
     Bairro: "Jardim Ceu Azul",
     Rua: "Rua 64 , Nº: SN",
     Complemento: "Quadra87 Lote 01/02",
+
     latitude: -16.0545368,
     longitude: -48.0016861,
   },
@@ -2114,6 +2020,7 @@ export const stores = [
     Bairro: "Parque Esplanada III",
     Rua: "St 304 , Nº: SN",
     Complemento: "Quadra12 Lote 02 - D",
+
     latitude: -16.0778574,
     longitude: -47.9824308,
   },
@@ -2125,6 +2032,7 @@ export const stores = [
     Bairro: "Parque Rio Branco",
     Rua: "Rua Da Br-040 , Nº: S/N",
     Complemento: "Qd 01",
+
     latitude: -16.0803853,
     longitude: -47.9867868,
   },
@@ -2136,6 +2044,7 @@ export const stores = [
     Bairro: "Setor De Chacaras ",
     Rua: "Q Quadra 38 , Nº: 09",
     Complemento: "Lote 09",
+
     latitude: -16.066537,
     longitude: -48.010998,
   },
@@ -2147,6 +2056,7 @@ export const stores = [
     Bairro: "Ypiranga",
     Rua: "Rua Marajó , Nº: SN",
     Complemento: "Quadra01 Lote 09, Ypiranga",
+
     latitude: -16.0550738,
     longitude: -47.9669597,
   },
@@ -2158,6 +2068,7 @@ export const stores = [
     Bairro: "Jardim Bela Morada",
     Rua: "Av Pedro Luiz Ribeiro , Nº: S/N",
     Complemento: "Fazenda Santo Antonio",
+
     latitude: -16.7692341,
     longitude: -49.2730807,
   },
@@ -2169,6 +2080,7 @@ export const stores = [
     Bairro: "Setor Garavelo",
     Rua: "R 26 C , Nº: SN",
     Complemento: "Setor Garavelo",
+
     latitude: -16.7726031,
     longitude: -49.3377852,
   },
@@ -2180,6 +2092,7 @@ export const stores = [
     Bairro: "Capuava",
     Rua: "Av Anhanguera , Nº: 14404",
     Complemento: "Loja 200 E 211",
+
     latitude: -16.6535167,
     longitude: -49.3303214,
   },
@@ -2191,6 +2104,7 @@ export const stores = [
     Bairro: "Jardim America",
     Rua: "Av C205 , Nº: 22",
     Complemento: "Lt.. 03 04 05 06 07 16 17",
+
     latitude: -16.6970284,
     longitude: -49.2847621,
   },
@@ -2202,6 +2116,7 @@ export const stores = [
     Bairro: "Setor Central",
     Rua: "Av Contorno , Nº: 325",
     Complemento: "Setor Central",
+
     latitude: -16.6686504,
     longitude: -49.2543026,
   },
@@ -2213,6 +2128,7 @@ export const stores = [
     Bairro: "Setor Centro Oeste",
     Rua: "R Do Comercio , Nº: S/N",
     Complemento: "Setor Centro Oeste",
+
     latitude: -16.6673535,
     longitude: -49.2861597,
   },
@@ -2224,6 +2140,7 @@ export const stores = [
     Bairro: "Cidade Jardim",
     Rua: "Av Brasilia , Nº: S/N",
     Complemento: "Quadraa Lote 15 Area B",
+
     latitude: -16.3149382,
     longitude: -48.944216,
   },
@@ -2235,19 +2152,9 @@ export const stores = [
     Bairro: "Cardoso",
     Rua: "Av Epiacauba , Nº: S/N",
     Complemento: "Quadra14 Lote 01 Anexo 01",
+
     latitude: -16.7503222,
     longitude: -49.2149042,
-  },
-  {
-    Parceiro: "Supercouto",
-    Cidade: "Aparecida De Goiânia",
-    Estado: "GO",
-    CEP: "74921-560",
-    Bairro: "Conjunto Residencial Storil",
-    Rua: "Rua Miguel Nacif , Nº: S/N",
-    Complemento: "Qd 6 Lt 34",
-    latitude: -16.7641926,
-    longitude: -49.2748725,
   },
   {
     Parceiro: "Supermercado Leo - Supermercado Max - Ap. Goiânia",
@@ -2257,6 +2164,7 @@ export const stores = [
     Bairro: "Independência - 1º ",
     Rua: "Av Benedito Silvestre De Toledo , Nº: S/N",
     Complemento: "Independência - 1º Complemento",
+
     latitude: -16.7219721,
     longitude: -49.3692469,
   },
@@ -2268,19 +2176,9 @@ export const stores = [
     Bairro: "Jardim Monte Cristo",
     Rua: "Av Independencia , Nº: S/N",
     Complemento: "Quadra16 Lote 2-20 Anexo 01",
+
     latitude: -16.8244113,
     longitude: -49.2759054,
-  },
-  {
-    Parceiro: "Supercouto Nova Era",
-    Cidade: "Aparecida De Goiânia",
-    Estado: "GO",
-    CEP: "74916-200",
-    Bairro: "Jardim Nova Era",
-    Rua: "Av Sao Joao , Nº: S/N",
-    Complemento: "Qd 07 Lt 9e",
-    latitude: -16.7533731,
-    longitude: -49.2795844,
   },
   {
     Parceiro: "Alarcon Comercio De Alimentos Eireli Me",
@@ -2290,6 +2188,7 @@ export const stores = [
     Bairro: "Parque Trindade",
     Rua: "Av Bela Vista , Nº: S/N",
     Complemento: "Parque Trindade",
+
     latitude: -16.7486194,
     longitude: -49.2119453,
   },
@@ -2301,19 +2200,9 @@ export const stores = [
     Bairro: "Parque Vega Jardim",
     Rua: "Av Escultor Veiga Valle , Nº: 100",
     Complemento: "Quadra26 Lote 01 A 32 Anexo 01",
+
     latitude: -16.7879817,
     longitude: -49.2816082,
-  },
-  {
-    Parceiro: "Supermercado Pratiko Aparecida Setor Dos Afonsos",
-    Cidade: "Aparecida De Goiânia",
-    Estado: "GO",
-    CEP: "74915-290",
-    Bairro: "Setor Dos Afonsos",
-    Rua: "R Dourados , Nº: s/n",
-    Complemento: "Quadra 142;Lote 01;",
-    latitude: -16.740899,
-    longitude: -49.2702141,
   },
   {
     Parceiro: "Bretas B651",
@@ -2323,6 +2212,7 @@ export const stores = [
     Bairro: "Agua Branca",
     Rua: "Av Rolf Wiest , Nº: 1781",
     Complemento: "Quadrach Lote 40 Anexo 01",
+
     latitude: -16.6929227,
     longitude: -49.2296697,
   },
@@ -2334,6 +2224,7 @@ export const stores = [
     Bairro: "Chácaras Mansões Rosas De ",
     Rua: "Rua Dos Esportes , Nº: 300",
     Complemento: "S/C",
+
     latitude: -16.6408132,
     longitude: -49.340652,
   },
@@ -2344,6 +2235,7 @@ export const stores = [
     CEP: "74486-470",
     Bairro: "Condominio Residencial ",
     Rua: "Av Santa Maria , Nº: S/N",
+
     latitude: -16.6868912,
     longitude: -49.2647943,
   },
@@ -2355,6 +2247,7 @@ export const stores = [
     Bairro: "Conjunto Vera Cruz II",
     Rua: "Av Leopoldo De Bulhoes , Nº: 170",
     Complemento: "Quadraqi4 Lote 08",
+
     latitude: -16.658345,
     longitude: -49.38178200000001,
   },
@@ -2366,6 +2259,7 @@ export const stores = [
     Bairro: "Goia",
     Rua: "Av Felipe Camarao , Nº: 205",
     Complemento: "Qd 38 Lt 29-30-31-32 E 34",
+
     latitude: -16.6830526,
     longitude: -49.3280564,
   },
@@ -2377,6 +2271,7 @@ export const stores = [
     Bairro: "Goia",
     Rua: "Av Felipe Camarao , Nº: 635",
     Complemento: "Quadra 37;Lote 04;",
+
     latitude: -16.684863,
     longitude: -49.3318468,
   },
@@ -2388,6 +2283,7 @@ export const stores = [
     Bairro: "Jardim Ana Lucia",
     Rua: "Av Araxa , Nº: 949",
     Complemento: "Quadra33 Lote 01/19 Anexo 01",
+
     latitude: -16.6992527,
     longitude: -49.31203300000001,
   },
@@ -2399,6 +2295,7 @@ export const stores = [
     Bairro: "Jardim Goias",
     Rua: "Rua 104 , Nº: S/N",
     Complemento: "B-50 Lt 01/18",
+
     latitude: -16.7135347,
     longitude: -49.2349821,
   },
@@ -2410,6 +2307,7 @@ export const stores = [
     Bairro: "Jardim Lisboa",
     Rua: "R Independencia , Nº: 51",
     Complemento: "Anexo 01",
+
     latitude: -16.7722343,
     longitude: -49.3557055,
   },
@@ -2421,6 +2319,7 @@ export const stores = [
     Bairro: "Jardim Presidente",
     Rua: "Av Rio Verde , Nº: 7908",
     Complemento: "Jardim Presidente",
+
     latitude: -16.7490894,
     longitude: -49.3315529,
   },
@@ -2432,19 +2331,9 @@ export const stores = [
     Bairro: "Jd. Bela Vista",
     Rua: "Av Contorno , Nº: 2914",
     Complemento: "Anexo 1",
+
     latitude: -16.7341173,
     longitude: -49.2341016,
-  },
-  {
-    Parceiro: "Supercouto III",
-    Cidade: "Goiânia",
-    Estado: "GO",
-    CEP: "74835-620",
-    Bairro: "Parque Amazônia",
-    Rua: "Avenida José Rodrigues De Morais Neto , Nº: 1708",
-    Complemento: "Parque Amazônia",
-    latitude: -16.7306419,
-    longitude: -49.2752996,
   },
   {
     Parceiro: "Supermercado Leo - Pq. Santa Rita",
@@ -2454,6 +2343,7 @@ export const stores = [
     Bairro: "Parque Santa Rita",
     Rua: "Rua Sr 7 , Nº: 215",
     Complemento: "Parque Santa Rita",
+
     latitude: -16.7219721,
     longitude: -49.3692469,
   },
@@ -2465,6 +2355,7 @@ export const stores = [
     Bairro: "Residencial Rio Verde",
     Rua: "Avenida Seringueiras , Nº: 1168",
     Complemento: "Residencial Rio Verde",
+
     latitude: -16.7381017,
     longitude: -49.3691259,
   },
@@ -2476,6 +2367,7 @@ export const stores = [
     Bairro: "S Leste Universitari",
     Rua: "Av Anhanguera , Nº: 3261",
     Complemento: "Q 67e L 2/6, 14/16 21",
+
     latitude: -16.6703228,
     longitude: -49.2417234,
   },
@@ -2486,7 +2378,8 @@ export const stores = [
     CEP: "74063-010",
     Bairro: "Set Central",
     Rua: "Av Goias , Nº: 2151",
-    Complemento: "S/C",
+    Complemento: " S/C",
+
     latitude: -16.6706001,
     longitude: -49.2593842,
   },
@@ -2498,6 +2391,7 @@ export const stores = [
     Bairro: "Setor Bueno",
     Rua: "R T 55 , Nº: 611",
     Complemento: "Quadra104 Lote 01 Anexo 01",
+
     latitude: -16.7004399,
     longitude: -49.276539,
   },
@@ -2509,6 +2403,7 @@ export const stores = [
     Bairro: "Setor Bueno",
     Rua: "R T-0070 , Nº: 67",
     Complemento: "Q136 Lotes 1/7/ 10 /12anexo 01",
+
     latitude: -16.7004399,
     longitude: -49.276539,
   },
@@ -2520,6 +2415,7 @@ export const stores = [
     Bairro: "Setor Campinas",
     Rua: "Rua José Hermano , Nº: 460",
     Complemento: "Qd 84 Lt 02",
+
     latitude: -16.67058,
     longitude: -49.2945231,
   },
@@ -2531,6 +2427,7 @@ export const stores = [
     Bairro: "Setor Central",
     Rua: "Av Anhanguera , Nº: 5588",
     Complemento: "Quadra70 Lote 13 Anexo 01",
+
     latitude: -16.6716683,
     longitude: -49.2562665,
   },
@@ -2542,6 +2439,7 @@ export const stores = [
     Bairro: "Setor Coimbra",
     Rua: "Av Perimetral , Nº: 2982",
     Complemento: "Setor Coimbra",
+
     latitude: -16.6869482,
     longitude: -49.282177,
   },
@@ -2553,19 +2451,9 @@ export const stores = [
     Bairro: "Setor Leste Universitario",
     Rua: "Av Sexta Avenida , Nº: 41",
     Complemento: "Setor Leste Universitario",
+
     latitude: -16.6767339,
     longitude: -49.2460984,
-  },
-  {
-    Parceiro: "Supermercado Prátiko - Leste Vila Nova",
-    Cidade: "Goiânia",
-    Estado: "GO",
-    CEP: "74635-030",
-    Bairro: "Setor Leste Vila Nova",
-    Rua: "R Coronel Cosme , Nº: 151",
-    Complemento: "Setor Leste Vila Nova",
-    latitude: -16.6825541,
-    longitude: -49.2411262,
   },
   {
     Parceiro: "Bretas B633",
@@ -2575,6 +2463,7 @@ export const stores = [
     Bairro: "Setor Morada Do Sol",
     Rua: "Av Mangalo , Nº: S/N",
     Complemento: "Quadra14 Lote 134,135 E 143",
+
     latitude: -16.618213,
     longitude: -49.32172629999999,
   },
@@ -2586,6 +2475,7 @@ export const stores = [
     Bairro: "Setor Pedro Ludovico",
     Rua: "Rua 1034 , Nº: 251",
     Complemento: "73-A Lt Area",
+
     latitude: -16.7147274,
     longitude: -49.2573585,
   },
@@ -2597,6 +2487,7 @@ export const stores = [
     Bairro: "Setor Sao Jose",
     Rua: "Av Padre Wendel , Nº: 171",
     Complemento: "Anexo 01",
+
     latitude: -16.657588,
     longitude: -49.3031574,
   },
@@ -2608,6 +2499,7 @@ export const stores = [
     Bairro: "Setor Sol Nascente",
     Rua: "Avenida T 2 , Nº: 3450",
     Complemento: "Quadrach Lote 01/05 Anexo 01",
+
     latitude: -16.6846543,
     longitude: -49.2930018,
   },
@@ -2619,6 +2511,7 @@ export const stores = [
     Bairro: "Setor Sul Jamil Miguel",
     Rua: "R 87 , Nº: 126",
     Complemento: "Quadraf 23 Lote 12/14",
+
     latitude: -16.6901007,
     longitude: -49.2552528,
   },
@@ -2630,6 +2523,7 @@ export const stores = [
     Bairro: "Setor Três Marias I",
     Rua: "Avenida Ville , Nº: S/N",
     Complemento: "Anel Viário",
+
     latitude: -16.7487678,
     longitude: -49.3409347,
   },
@@ -2641,6 +2535,7 @@ export const stores = [
     Bairro: "Vila Jaragua",
     Rua: "Av Engenheiro Fuad Rassi , Nº: 796",
     Complemento: "Quadrau Lote 1/5 Anexo 01",
+
     latitude: -16.6533959,
     longitude: -49.2549997,
   },
@@ -2652,6 +2547,7 @@ export const stores = [
     Bairro: "Vila Mutirão II",
     Rua: "Avenida Do Povo , Nº: 1063",
     Complemento: "Vila Mutirão Ii",
+
     latitude: -16.6156247,
     longitude: -49.348327,
   },
@@ -2663,6 +2559,7 @@ export const stores = [
     Bairro: "Vila Pedroso",
     Rua: "Avenida Anápolis , Nº: 2121",
     Complemento: "Anexo 01",
+
     latitude: -16.6590578,
     longitude: -49.1874057,
   },
@@ -2674,6 +2571,7 @@ export const stores = [
     Bairro: "Vila Redencao",
     Rua: "Av R 3 , Nº: 48",
     Complemento: "Qd. 15, Lt. 1 E 6 E Qd. 14",
+
     latitude: -16.724583,
     longitude: -49.240934,
   },
@@ -2685,6 +2583,7 @@ export const stores = [
     Bairro: "Vila Rizzo",
     Rua: "Av Victor Esselin , Nº: 79",
     Complemento: "Quadra02 Lote 05",
+
     latitude: -16.7232403,
     longitude: -49.373551,
   },
@@ -2695,7 +2594,8 @@ export const stores = [
     CEP: "75907-681",
     Bairro: "Residencial Jardim ",
     Rua: "R Jao , Nº: 1044",
-    Complemento: "",
+    Complemento: " ",
+
     latitude: -17.7792183,
     longitude: -50.9264829,
   },
@@ -2707,6 +2607,7 @@ export const stores = [
     Bairro: "Parque Alvorada",
     Rua: "Avenida Dom Emanuel , Nº: 2916",
     Complemento: "Lote 1/16b Quadra4/5",
+
     latitude: -16.6873996,
     longitude: -49.10571359999999,
   },
@@ -2718,6 +2619,7 @@ export const stores = [
     Bairro: "Residencial Boa Vista",
     Rua: "Av Antonio Flavio Lima , Nº: S/N",
     Complemento: "Qd 30 Lt15 25\t",
+
     latitude: -16.6764217,
     longitude: -49.1129599,
   },
@@ -2729,6 +2631,7 @@ export const stores = [
     Bairro: "Residencial Pedro Miranda",
     Rua: "Av Castro Alves , Nº: 163",
     Complemento: "Residencial Pedro Miranda",
+
     latitude: -16.73044,
     longitude: -49.087809,
   },
@@ -2740,6 +2643,7 @@ export const stores = [
     Bairro: "Zona Rural",
     Rua: "Rod Br 060 , Nº: SN",
     Complemento: "Km: 75 Norte A Direita;",
+
     latitude: -16.1973129,
     longitude: -48.7060927,
   },
@@ -2751,6 +2655,7 @@ export const stores = [
     Bairro: "Zona Rural",
     Rua: "Rod Br 060 Km 58 , Nº: S/N",
     Complemento: "Anexo 1",
+
     latitude: -16.1973129,
     longitude: -48.7060927,
   },
@@ -2762,6 +2667,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "Av Avenida 15 De Novembro , Nº: S/N",
     Complemento: "Qd 118 Lt 20",
+
     latitude: -16.0830441,
     longitude: -48.5073638,
   },
@@ -2773,6 +2679,7 @@ export const stores = [
     Bairro: "Bairro Maracana",
     Rua: "Av Senador Ramos Caiado , Nº: 122",
     Complemento: "Bairro Maracana",
+
     latitude: -16.3165995,
     longitude: -48.9531936,
   },
@@ -2784,19 +2691,9 @@ export const stores = [
     Bairro: "Boa Vista",
     Rua: "R Franca , Nº: 810",
     Complemento: "Boa Vista",
+
     latitude: -16.3099913,
     longitude: -48.94358030000001,
-  },
-  {
-    Parceiro: "Floresta Supermercados - Tiradentes",
-    Cidade: "Anápolis",
-    Estado: "GO",
-    CEP: "75000-001",
-    Bairro: "Centro",
-    Rua: "Av Tiradentes , Nº: 575",
-    Complemento: "Centro",
-    latitude: -16.3175159,
-    longitude: -48.957952,
   },
   {
     Parceiro: "Floresta Supermercado - Centro",
@@ -2806,6 +2703,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "R General Joaquim Inacio , Nº: 40",
     Complemento: "Centro",
+
     latitude: -16.3175159,
     longitude: -48.957952,
   },
@@ -2817,6 +2715,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "R Quintino Bocaiuva , Nº: 820",
     Complemento: "Centro",
+
     latitude: -16.3251969,
     longitude: -48.9594538,
   },
@@ -2828,6 +2727,7 @@ export const stores = [
     Bairro: "Conjunto Habitacional Filostro ",
     Rua: "Av Ayrton Senna , Nº: 1300",
     Complemento: "Conjunto Habitacional Filostro",
+
     latitude: -16.3118478,
     longitude: -48.9038885,
   },
@@ -2839,6 +2739,7 @@ export const stores = [
     Bairro: "Eldorado",
     Rua: "Avenida Rodovânio Rodovalho , Nº: S/N",
     Complemento: "Qd 07 Lt 03",
+
     latitude: -16.3420966,
     longitude: -48.9548117,
   },
@@ -2850,6 +2751,7 @@ export const stores = [
     Bairro: "Jardim Alexandrina",
     Rua: "R Waldomiro Correia Neto , Nº: 310",
     Complemento: "Jardim Alexandrina",
+
     latitude: -16.2943591,
     longitude: -48.9637638,
   },
@@ -2861,6 +2763,7 @@ export const stores = [
     Bairro: "Jardim Arco Verde",
     Rua: "Avenida Arco Verde , Nº: 981",
     Complemento: "Qd 01 Lt 24",
+
     latitude: -16.3703537,
     longitude: -48.9442887,
   },
@@ -2872,6 +2775,7 @@ export const stores = [
     Bairro: "Jardim Goncalves",
     Rua: "R Boa Ventura Do Puxim , Nº: 65",
     Complemento: "Esquina Com Rua Sao Pedro",
+
     latitude: -16.3500102,
     longitude: -48.9580634,
   },
@@ -2883,6 +2787,7 @@ export const stores = [
     Bairro: "Jundiai",
     Rua: "Av Jose Neto Paranhos , Nº: SN",
     Complemento: "Quadra 63 Lote 36/37",
+
     latitude: -16.3286545,
     longitude: -48.9534253,
   },
@@ -2894,6 +2799,7 @@ export const stores = [
     Bairro: "Jundiai",
     Rua: "Avenida São Francisco De Assis , Nº: 46",
     Complemento: "Qd D Lt 14",
+
     latitude: -16.3305474,
     longitude: -48.94683070000001,
   },
@@ -2905,6 +2811,7 @@ export const stores = [
     Bairro: "Jundiai",
     Rua: "Avenida São Francisco De Assis , Nº: 1090",
     Complemento: "Quadrag Lote 03",
+
     latitude: -16.3395558,
     longitude: -48.9436627,
   },
@@ -2916,19 +2823,9 @@ export const stores = [
     Bairro: "Jundiai",
     Rua: "Av Contorno Mato Grosso , Nº: 354",
     Complemento: "Jundiai",
+
     latitude: -16.3290176,
     longitude: -48.9468602,
-  },
-  {
-    Parceiro: "Supermercado Do Povo- Loja 1",
-    Cidade: "Anápolis",
-    Estado: "GO",
-    CEP: "75053-240",
-    Bairro: "Lot. Adriana Parque",
-    Rua: "R G-12 , Nº: 301",
-    Complemento: "Lot. Adriana Parque",
-    latitude: -16.2777328,
-    longitude: -48.9851379,
   },
   {
     Parceiro: "Supermercado Anestor",
@@ -2938,6 +2835,7 @@ export const stores = [
     Bairro: "Loteamento Residencial ",
     Rua: "Rua Ra-011 , Nº: SN",
     Complemento: "Quadra 14 Lote 26 Casa 3",
+
     latitude: -16.2767362,
     longitude: -48.9387672,
   },
@@ -2949,6 +2847,7 @@ export const stores = [
     Bairro: "Lourdes",
     Rua: "R 4 , Nº: SN",
     Complemento: "Quadra25 Lote 20",
+
     latitude: -16.3310461,
     longitude: -48.9163525,
   },
@@ -2960,6 +2859,7 @@ export const stores = [
     Bairro: "Parque Brasilia",
     Rua: "Av Ayrton Senna , Nº: 804",
     Complemento: "Quadra 14;Lote 01;",
+
     latitude: -16.320497,
     longitude: -48.9162309,
   },
@@ -2971,19 +2871,9 @@ export const stores = [
     Bairro: "Parque Brasilia 2a Etapa",
     Rua: "Av Pb 1 , Nº: S/N",
     Complemento: "Quadra 43;Lote 27",
+
     latitude: -16.3242056,
     longitude: -48.9177641,
-  },
-  {
-    Parceiro: "Floresta Supermercado - Parque Brasilia",
-    Cidade: "Anápolis",
-    Estado: "GO",
-    CEP: "75093-715",
-    Bairro: "Parque Brasilia 2a Etapa",
-    Rua: "St Comercial Bloco D , Nº: SN",
-    Complemento: "Parque Brasilia 2a Etapa",
-    latitude: -16.3175159,
-    longitude: -48.957952,
   },
   {
     Parceiro: "Bontelo Supermercado ",
@@ -2993,6 +2883,7 @@ export const stores = [
     Bairro: "Parque Dos Pirineus",
     Rua: "Avenida Colorado , Nº: S/N",
     Complemento: "Qd 48 Lt 24",
+
     latitude: -16.272264,
     longitude: -48.9504044,
   },
@@ -3004,6 +2895,7 @@ export const stores = [
     Bairro: "Parque Residencial Das ",
     Rua: "Av Joao Florentino , Nº: SN",
     Complemento: "Quadrai Lote 20",
+
     latitude: -16.2777328,
     longitude: -48.9851379,
   },
@@ -3015,6 +2907,7 @@ export const stores = [
     Bairro: "Residencial Flor Do Cerrado",
     Rua: "Av Fabio De Araujo , Nº: SN",
     Complemento: "Quadra26 Lote 8/9 1 E 2 Etapa",
+
     latitude: -16.2936399,
     longitude: -48.9237142,
   },
@@ -3026,6 +2919,7 @@ export const stores = [
     Bairro: "Setor Sul Ii Etapa",
     Rua: "Avenida Principal , Nº: S/N",
     Complemento: "Qd 33 Lt 27",
+
     latitude: -16.3671487,
     longitude: -48.9473175,
   },
@@ -3037,6 +2931,7 @@ export const stores = [
     Bairro: "Setor Summerville",
     Rua: "Avenida Summerville  , Nº: SN",
     Complemento: "Qd 22 Lt 22",
+
     latitude: -16.3392514,
     longitude: -48.9082263,
   },
@@ -3048,6 +2943,7 @@ export const stores = [
     Bairro: "Vila Gois",
     Rua: "Av Divino Pai Eterno , Nº: 888",
     Complemento: "Vila Gois",
+
     latitude: -16.3405779,
     longitude: -48.959637,
   },
@@ -3059,6 +2955,7 @@ export const stores = [
     Bairro: "Vila Industrial",
     Rua: "R Tenente Jose R. Junior , Nº: 16",
     Complemento: "Vila Industrial",
+
     latitude: -16.338807,
     longitude: -48.94924289999999,
   },
@@ -3070,6 +2967,7 @@ export const stores = [
     Bairro: "Vila Nossa Senhora D'Abadia",
     Rua: "R Engenheiro Portela , Nº: 2226",
     Complemento: "Loja 02",
+
     latitude: -16.3477885,
     longitude: -48.958229,
   },
@@ -3081,6 +2979,7 @@ export const stores = [
     Bairro: "Vila Residencial Pedro ",
     Rua: "Av Pedro Ludovico , Nº: 1340",
     Complemento: "Vila Residencial Pedro Ludovic",
+
     latitude: -16.3402728,
     longitude: -48.9679678,
   },
@@ -3092,6 +2991,7 @@ export const stores = [
     Bairro: "Vila Santa Isabel",
     Rua: "Av Universitaria , Nº: 2221",
     Complemento: "Vila Santa Isabel",
+
     latitude: -16.3023878,
     longitude: -48.9488104,
   },
@@ -3103,6 +3003,7 @@ export const stores = [
     Bairro: "Vila Santa Isabel",
     Rua: "R 4 , Nº: 153",
     Complemento: "Vila Santa Isabel",
+
     latitude: -16.3080473,
     longitude: -48.94741740000001,
   },
@@ -3114,6 +3015,7 @@ export const stores = [
     Bairro: "Vila Sao Joao",
     Rua: "R Maua , Nº: 1005",
     Complemento: "Vila Sao Joao",
+
     latitude: -16.3177367,
     longitude: -48.963748,
   },
@@ -3125,6 +3027,7 @@ export const stores = [
     Bairro: "Area Rural De Catalao",
     Rua: "A Rural Rodovia Go 210 , Nº: SN",
     Complemento: "Km 47 Faz Catalao",
+
     latitude: -18.1712547,
     longitude: -47.9674255,
   },
@@ -3136,6 +3039,7 @@ export const stores = [
     Bairro: "Zona Rural",
     Rua: "Rod Br 153 - Tempo Dos Quintais , Nº: SN",
     Complemento: "Km 107 Norte;",
+
     latitude: -16.4312555,
     longitude: -49.0176347,
   },
@@ -3147,6 +3051,7 @@ export const stores = [
     Bairro: "Setor Sul (Gama)",
     Rua: "R Humbelino Filho , Nº: SN",
     Complemento: "Quiosqbarraca 33",
+
     latitude: -16.4846278,
     longitude: -49.0926754,
   },
@@ -3158,6 +3063,7 @@ export const stores = [
     Bairro: "Vila Heliopolis II",
     Rua: "R Humbelino Filho , Nº: SN",
     Complemento: "Vila Heliopolis Ii",
+
     latitude: -16.4598538,
     longitude: -49.0626317,
   },
@@ -3169,6 +3075,7 @@ export const stores = [
     Bairro: "Jardim Ceu Azul",
     Rua: "R 101 , Nº: S/N",
     Complemento: "Lotes 16/17/18/19 E 22",
+
     latitude: -16.0550242,
     longitude: -48.01042210000001,
   },
@@ -3180,6 +3087,7 @@ export const stores = [
     Bairro: "Jardim Da Barragem III",
     Rua: "R 01 Quadra 2b Lote , Nº: 47",
     Complemento: "Lote 48/49",
+
     latitude: -15.7325238,
     longitude: -48.2916263,
   },
@@ -3191,6 +3099,7 @@ export const stores = [
     Bairro: "Ceilandia Norte (Ceilandia)",
     Rua: "Q Eqnp 9/13 Bloco C Lote 1 A 6 , Nº: S/N",
     Complemento: "Ceilandia Norte (Ceilandia)",
+
     latitude: -15.8051898,
     longitude: -48.11841949999999,
   },
@@ -3202,6 +3111,7 @@ export const stores = [
     Bairro: "Recanto Das Emas",
     Rua: "Q Quadra 304 , Nº: 06",
     Complemento: "Av. Recanto Das Emas",
+
     latitude: -15.9140869,
     longitude: -48.0934323,
   },
@@ -3213,6 +3123,7 @@ export const stores = [
     Bairro: "Recanto Das Emas",
     Rua: "Quadra 402 Conjunto 1 , Nº: S/N",
     Complemento: "Ade Quadra 402 Conjunto 1 Lote",
+
     latitude: -15.8738026,
     longitude: -48.0284378,
   },
@@ -3222,8 +3133,9 @@ export const stores = [
     Estado: "DF",
     CEP: "72502-220",
     Bairro: "Santa Maria",
-    Rua: "Cl 202 , Nº: S/N",
+    Rua: " Cl 202 , Nº: S/N",
     Complemento: "Quadra Cl 202 Lote D-01 / D-04",
+
     latitude: -16.0399595,
     longitude: -48.0337045,
   },
@@ -3233,8 +3145,9 @@ export const stores = [
     Estado: "DF",
     CEP: "72505-200",
     Bairro: "Santa Maria",
-    Rua: "Cl 105 , Nº: S/N",
+    Rua: " Cl 105 , Nº: S/N",
     Complemento: "Cl 105 Lote A, B, C E D",
+
     latitude: -16.0121471,
     longitude: -47.9943343,
   },
@@ -3244,8 +3157,9 @@ export const stores = [
     Estado: "DF",
     CEP: "72509-224",
     Bairro: "Santa Maria",
-    Rua: "Cl 209 Bloco D , Nº: S/N",
+    Rua: " Cl 209 Bloco D , Nº: S/N",
     Complemento: "Quadra Cl 209, Lote D, Setor S",
+
     latitude: -16.0204765,
     longitude: -48.0227684,
   },
@@ -3255,8 +3169,9 @@ export const stores = [
     Estado: "DF",
     CEP: "72546-243",
     Bairro: "Santa Maria",
-    Rua: "Cl 416 Bloco C , Nº: S/N",
+    Rua: " Cl 416 Bloco C , Nº: S/N",
     Complemento: "Quadra Cl 416 Lote C",
+
     latitude: -16.0121471,
     longitude: -47.9943343,
   },
@@ -3268,6 +3183,7 @@ export const stores = [
     Bairro: "Setor Industrial (Gama)",
     Rua: "Quadra 7 , Nº: S/N",
     Complemento: "Qi 7 Lt 380",
+
     latitude: -16.0160682,
     longitude: -48.0682555,
   },
@@ -3279,6 +3195,7 @@ export const stores = [
     Bairro: "Setor Oeste (Gama)",
     Rua: "Quadra 28 , Nº: S/N",
     Complemento: "Quadra 28 Lt 05 Lj 01 S/N Seto",
+
     latitude: -16.0082704,
     longitude: -48.0727329,
   },
@@ -3290,6 +3207,7 @@ export const stores = [
     Bairro: "Setor Oeste (Gama)",
     Rua: "Quadra 8 , Nº: S/N",
     Complemento: "Qd C8 Lote 03, 04 E 05, Setor ",
+
     latitude: -16.0082704,
     longitude: -48.0727329,
   },
@@ -3301,6 +3219,7 @@ export const stores = [
     Bairro: "Setor Sul (Gama)",
     Rua: "Quadra 10 Comércio , Nº: S/N",
     Complemento: "Quadra 10 Comercio Lote 06 Loj",
+
     latitude: -16.0221922,
     longitude: -48.085333,
   },
@@ -3310,8 +3229,9 @@ export const stores = [
     Estado: "DF",
     CEP: "72125-060",
     Bairro: "Taguatinga Norte ",
-    Rua: "Qne 6 , Nº: S/N",
+    Rua: " Qne 6 , Nº: S/N",
     Complemento: "Qne 6 Lote 4,5,6 E Qne 08 Lote",
+
     latitude: -15.8016557,
     longitude: -48.0586873,
   },
@@ -3323,6 +3243,7 @@ export const stores = [
     Bairro: "Jardim Do Ingá",
     Rua: "Avenida Prefeito José Rodrigues Dos Reis , Nº: S/N",
     Complemento: "Qd 01 Lt 01/05",
+
     latitude: -16.1470867,
     longitude: -47.944479,
   },
@@ -3334,6 +3255,7 @@ export const stores = [
     Bairro: "Parque Estrela Dalva VII",
     Rua: "Avenida Joaquim Braz De Queiroz , Nº: 2",
     Complemento: "Loja 13",
+
     latitude: -16.2670111,
     longitude: -47.9106912,
   },
@@ -3345,6 +3267,7 @@ export const stores = [
     Bairro: "Loteamento Lunabel 3a",
     Rua: "R 6 , Nº: S/N",
     Complemento: "Qd 06 Lt 05/10",
+
     latitude: -16.0888761,
     longitude: -48.0555514,
   },
@@ -3356,6 +3279,7 @@ export const stores = [
     Bairro: "Parque Estrela Dalva VII",
     Rua: "Quadra 509 , Nº: S/N",
     Complemento: "Qd 509",
+
     latitude: -16.0605522,
     longitude: -48.0302182,
   },
@@ -3367,6 +3291,7 @@ export const stores = [
     Bairro: "Jardim Ceu Azul",
     Rua: "Rua 76 , Nº: 134",
     Complemento: "Lote 05/06",
+
     latitude: -16.0544853,
     longitude: -48.01109049999999,
   },
@@ -3378,6 +3303,7 @@ export const stores = [
     Bairro: "Jardim Oriente",
     Rua: "R 18 , Nº: S/N",
     Complemento: "Qd 27 Lt 02,03,04,05",
+
     latitude: -16.0690726,
     longitude: -47.9914307,
   },
@@ -3389,6 +3315,7 @@ export const stores = [
     Bairro: "Parque Esplanada III",
     Rua: "R 34 , Nº: S/N",
     Complemento: "Lt 22,23",
+
     latitude: -16.0775373,
     longitude: -47.9787391,
   },
@@ -3400,6 +3327,7 @@ export const stores = [
     Bairro: "Parque Marajó",
     Rua: "Praça Virgínia , Nº: S/N",
     Complemento: "Qd 03 Area Especial",
+
     latitude: -16.0690726,
     longitude: -47.9914307,
   },
@@ -3411,19 +3339,18 @@ export const stores = [
     Bairro: "Jauá (Abrantes)",
     Rua: "Rua Direta De Jauá , Nº: 60",
     Complemento: "Rua Do Flamingo",
+
     latitude: -12.830931,
     longitude: -38.229528,
   },
   {
-    Parceiro: "Novo Varejo - Rua Nova Abrantes",
+    Parceiro: "Novo Varejo - Av. Tiradentes",
     Cidade: "Camaçari",
     Estado: "BA",
-    CEP: "42827-678",
+    CEP: "42827-762",
     Bairro: "Vila De Abrantes (Abrantes)",
-    Rua: "Avenida Antônio Elias Duarte , Nº: S/N",
-    Complemento: "Rua Nova Abrantes",
-    latitude: -12.839295,
-    longitude: -38.262787,
+    Rua: "Av Tiradentes , Nº: S/N",
+    Complemento: "Avenida Tiradentes",
   },
   {
     Parceiro: "Mais Supermercado",
@@ -3432,6 +3359,7 @@ export const stores = [
     CEP: "42717-000",
     Bairro: "Vida Nova",
     Rua: "Avenida Santo Amaro De Ipitanga , Nº: 579",
+
     latitude: -12.879312,
     longitude: -38.327368,
   },
@@ -3443,6 +3371,7 @@ export const stores = [
     Bairro: "Praia Do Forte",
     Rua: "R Do Gordinho , Nº: 3232",
     Complemento: "Praia Do Forte",
+
     latitude: -12.574667,
     longitude: -38.005031,
   },
@@ -3454,6 +3383,7 @@ export const stores = [
     Bairro: "Boca Do Rio",
     Rua: "Rua Hélio Machado , Nº: 12",
     Complemento: "Térreo",
+
     latitude: -12.977639,
     longitude: -38.430284,
   },
@@ -3465,7 +3395,8 @@ export const stores = [
     Bairro: "Cosme De Farias",
     Rua: "Rua Antônio Viana , Nº: 454",
     Complemento: "Terreo Loja",
-    latitude: -12.98024,
+
+    latitude: -12.980240,
     longitude: -38.483277,
   },
   {
@@ -3476,6 +3407,7 @@ export const stores = [
     Bairro: "Paripe",
     Rua: "Rua Iriguaçu , Nº: 09",
     Complemento: "Loja 01",
+
     latitude: -12.830762,
     longitude: -38.476052,
   },
@@ -3486,6 +3418,7 @@ export const stores = [
     CEP: "40720-070",
     Bairro: "Periperi",
     Rua: "R Doutor Almeida Lima , Nº: 14",
+
     latitude: -12.863904,
     longitude: -38.471044,
   },
@@ -3497,6 +3430,7 @@ export const stores = [
     Bairro: "Setor Aeroporto",
     Rua: "Anhanguera",
     Complemento: "Nº 5898",
+
     latitude: -16.677047,
     longitude: -49.265833,
   },
@@ -3508,6 +3442,7 @@ export const stores = [
     Bairro: "Set Leste Vila Nova",
     Rua: "Quinta Avenida",
     Complemento: "N 972 Quadra57 Lote 04 05 06 07 E 09",
+
     latitude: -16.662246,
     longitude: -49.246179,
   },
@@ -3516,9 +3451,10 @@ export const stores = [
     Cidade: "Goiânia",
     Estado: "GO",
     CEP: "74465-539",
-    Bairro: "Jardim America",
+    Bairro: " Jardim America",
     Rua: "T-9",
     Complemento: "Nº2940",
+
     latitude: -16.708719,
     longitude: -49.287758,
   },
@@ -3530,6 +3466,7 @@ export const stores = [
     Bairro: "Jd Balneario Meia Ponte",
     Rua: "Jd Balneario Meia Ponte",
     Complemento: "Qd 02 Lt 14/15",
+
     latitude: -16.622715,
     longitude: -49.284317,
   },
@@ -3541,7 +3478,8 @@ export const stores = [
     Bairro: "Jd Atlantico",
     Rua: "Ipanema",
     Complemento: "Quadra06 Lote 01/02/03/15/16",
-    latitude: -16.73455,
+
+    latitude: -16.734550,
     longitude: -49.307219,
   },
   {
@@ -3552,6 +3490,7 @@ export const stores = [
     Bairro: "Loteamento Celina Park",
     Rua: "Cp 6",
     Complemento: "Quadracp08 Lote 15 16/21",
+
     latitude: -16.709636,
     longitude: -49.322447,
   },
@@ -3563,7 +3502,8 @@ export const stores = [
     Bairro: "Parque Amazônia",
     Rua: "Transbrasiliana",
     Complemento: "Quadra248 Lote 09/10",
-    latitude: -16.72366,
+
+    latitude: -16.723660,
     longitude: -49.271202,
   },
   {
@@ -3574,7 +3514,8 @@ export const stores = [
     Bairro: "Chácaras Nossa Senhora Da Piedade",
     Rua: "De Acesso A",
     Complemento: "Br 153, Km 7,5",
-    latitude: -16.60827,
+
+    latitude: -16.608270,
     longitude: -49.205266,
   },
   {
@@ -3584,8 +3525,9 @@ export const stores = [
     CEP: "74913-074",
     Bairro: "Parque Primavera",
     Rua: "Dos Cravos",
+
     latitude: -16.756351,
-    longitude: -49.25073,
+    longitude: -49.250730,
   },
   {
     Parceiro: "Bretas B516",
@@ -3595,7 +3537,8 @@ export const stores = [
     Bairro: "Jd. Bela Vista",
     Rua: "Contorno",
     Complemento: "Anexo 1",
-    latitude: -16.72959,
+
+    latitude: -16.729590,
     longitude: -49.233991,
   },
   {
@@ -3606,6 +3549,7 @@ export const stores = [
     Bairro: "Vila Jaragua",
     Rua: "Engenheiro Fuad Rassi",
     Complemento: "Quadrau Lote 1/5 Anexo 01",
+
     latitude: -16.654002,
     longitude: -49.253713,
   },
@@ -3617,6 +3561,7 @@ export const stores = [
     Bairro: "Setor Central",
     Rua: "Anhanguera",
     Complemento: "Quadra70 Lote 13 Anexo 01",
+
     latitude: -16.676193,
     longitude: -49.262805,
   },
@@ -3628,6 +3573,7 @@ export const stores = [
     Bairro: "Jardim Lisboa",
     Rua: "Independencia",
     Complemento: "Anexo 01",
+
     latitude: -16.769495,
     longitude: -49.351262,
   },
@@ -3639,6 +3585,7 @@ export const stores = [
     Bairro: "Jardim Ana Lucia",
     Rua: "Araxa",
     Complemento: "Quadra33 Lote 01/19 Anexo 01",
+
     latitude: -16.697331,
     longitude: -49.314415,
   },
@@ -3650,6 +3597,7 @@ export const stores = [
     Bairro: "Setor Bueno",
     Rua: "T 55",
     Complemento: "Quadra104 Lote 01 Anexo 01",
+
     latitude: -16.703544,
     longitude: -49.268234,
   },
@@ -3661,6 +3609,7 @@ export const stores = [
     Bairro: "Setor Sol Nascente",
     Rua: "T 2",
     Complemento: "Quadrach Lote 01/05 Anexo 01",
+
     latitude: -16.685023,
     longitude: -49.292877,
   },
@@ -3672,7 +3621,8 @@ export const stores = [
     Bairro: "Setor Bueno",
     Rua: "T-0070",
     Complemento: "Q136 Lotes 1/7/ 10 /12Anexo 01",
-    latitude: -16.70848,
+
+    latitude: -16.708480,
     longitude: -49.274159,
   },
   {
@@ -3683,8 +3633,9 @@ export const stores = [
     Bairro: "Vila Pedroso",
     Rua: "Anápolis",
     Complemento: "Nº 2121 Anexo 01",
+
     latitude: -16.659549,
-    longitude: -49.18744,
+    longitude: -49.187440,
   },
   {
     Parceiro: "Bretas B631",
@@ -3694,8 +3645,9 @@ export const stores = [
     Bairro: "Parque Vega Jardim",
     Rua: "Escultor Veiga Valle",
     Complemento: "Quadra26 Lote 01 A 32 Anexo 01",
+
     latitude: -16.787151,
-    longitude: -49.27905,
+    longitude: -49.279050,
   },
   {
     Parceiro: "Bretas B633",
@@ -3705,6 +3657,7 @@ export const stores = [
     Bairro: "Setor Morada Do Sol",
     Rua: "Mangalo",
     Complemento: "Quadra14 Lote 134,135 E 143",
+
     latitude: -16.6183347,
     longitude: -49.3220167,
   },
@@ -3716,6 +3669,7 @@ export const stores = [
     Bairro: "Cardoso",
     Rua: "Epiacauba",
     Complemento: "Quadra14 Lote 01 Anexo 01",
+
     latitude: -16.7677965,
     longitude: -49.3223156,
   },
@@ -3727,6 +3681,7 @@ export const stores = [
     Bairro: "Cidade Jardim",
     Rua: "Brasilia",
     Complemento: "Quadraa Lote 15 Area B",
+
     latitude: -16.3219822,
     longitude: -48.9483734,
   },
@@ -3738,6 +3693,7 @@ export const stores = [
     Bairro: "Jardim Monte Cristo",
     Rua: "Independencia",
     Complemento: "Quadra16 Lote 2-20 Anexo 01",
+
     latitude: -16.8240981,
     longitude: -49.2801619,
   },
@@ -3749,6 +3705,7 @@ export const stores = [
     Bairro: "Agua Branca",
     Rua: "Rolf Wiest",
     Complemento: "Quadrach Lote 40 Anexo 01",
+
     latitude: -16.6981505,
     longitude: -49.2161578,
   },
@@ -3760,6 +3717,7 @@ export const stores = [
     Bairro: "Setor Sao Jose",
     Rua: "Padre Wendel",
     Complemento: "Nº 171",
+
     latitude: -16.6640049,
     longitude: -49.2985889,
   },
@@ -3770,6 +3728,7 @@ export const stores = [
     CEP: "74486-470",
     Bairro: "Condominio Residencial Santa Rita",
     Rua: "Santa Maria",
+
     latitude: -16.6804098,
     longitude: -49.3299573,
   },
@@ -3781,6 +3740,7 @@ export const stores = [
     Bairro: "Parque Alvorada",
     Rua: "Dom Emanuel",
     Complemento: "Lote 1/16B Quadra4/5",
+
     latitude: -16.6893063,
     longitude: -49.1095923,
   },
@@ -3788,9 +3748,10 @@ export const stores = [
     Parceiro: "Oba Hortifruti Farm",
     Cidade: "Goiânia",
     Estado: "GO",
-    CEP: "74230-100",
+    CEP: " 74230-100",
     Bairro: "St. Bueno",
     Rua: "Av. T-63, 1100 ",
+
     latitude: -16.7138224,
     longitude: -49.273615,
   },
@@ -3801,6 +3762,7 @@ export const stores = [
     CEP: "74810-340",
     Bairro: "Jardim Goiás",
     Rua: "R. 69, 111",
+
     latitude: -16.7084618,
     longitude: -49.2335874,
   },
@@ -3812,6 +3774,7 @@ export const stores = [
     Bairro: "Higienopolis",
     Rua: "Avenida Angelica",
     Complemento: "N 635",
+
     latitude: -23.5385489,
     longitude: -46.6545612,
   },
@@ -3819,10 +3782,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Pamplona",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "04543-900",
+    CEP: "04543-900 ",
     Bairro: "Pamplona",
     Rua: "Rua Pamplona",
     Complemento: "N 822",
+
     latitude: -23.5650525,
     longitude: -46.6552229,
   },
@@ -3832,8 +3796,9 @@ export const stores = [
     Estado: "SP",
     CEP: "03176-000",
     Bairro: "Mooca",
-    Rua: "Tobias Barreto",
+    Rua: " Tobias Barreto",
     Complemento: "N 735",
+
     latitude: -23.5517432,
     longitude: -46.5904382,
   },
@@ -3843,8 +3808,9 @@ export const stores = [
     Estado: "SP",
     CEP: "05017-000",
     Bairro: "Perdizes",
-    Rua: "Apinajes",
+    Rua: " Apinajes",
     Complemento: "N 104",
+
     latitude: -23.5324594,
     longitude: -46.6769849,
   },
@@ -3852,10 +3818,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Pinheiros ",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "05400-000",
+    CEP: " 05400-000 ",
     Bairro: "Pinheiros",
     Rua: "Teodoro Sampaio",
     Complemento: "N 1424",
+
     latitude: -23.5608196,
     longitude: -46.6836097,
   },
@@ -3863,10 +3830,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Santana-Alfredo Pujol ",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "02016-001",
+    CEP: " 02016-001",
     Bairro: "Santana – Alfredo Pujol",
     Rua: "Alfredo Pujol",
     Complemento: "N 1324",
+
     latitude: -23.500534,
     longitude: -46.6386122,
   },
@@ -3875,9 +3843,10 @@ export const stores = [
     Cidade: "São Paulo",
     Estado: "SP",
     CEP: "02000-001",
-    Bairro: "Santana – Gal. Ataliba Leonel",
+    Bairro: " Santana – Gal. Ataliba Leonel",
     Rua: "Venida General Ataliba Leonel",
     Complemento: "N 1155",
+
     latitude: -23.5018666,
     longitude: -46.6174955,
   },
@@ -3885,10 +3854,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Vila Mariana",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "04000-001",
-    Bairro: "Vila Mariana",
-    Rua: "Domingos De Morais",
+    CEP: " 04000-001 ",
+    Bairro: " Vila Mariana",
+    Rua: " Domingos De Morais",
     Complemento: "N 2931",
+
     latitude: -23.601967,
     longitude: -46.6360989,
   },
@@ -3896,10 +3866,11 @@ export const stores = [
     Parceiro: "Oba São José Do Rio Preto",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "15093-215",
+    CEP: "15093-215 ",
     Bairro: "Sao Jose Do Rio Preto",
     Rua: "Av. Presidente Juscelino Kubitschek",
     Complemento: "N 3530",
+
     latitude: -20.8127115,
     longitude: -49.376521,
   },
@@ -3907,10 +3878,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Moema",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "01300-001",
+    CEP: "01300-001 ",
     Bairro: "Moema",
     Rua: "Avenida Macuco",
     Complemento: "N 655",
+
     latitude: -23.6049638,
     longitude: -46.6646939,
   },
@@ -3918,10 +3890,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Itaim Bibi",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "13571-410",
-    Bairro: "Itaim Bibi",
+    CEP: " 13571-410",
+    Bairro: " Itaim Bibi",
     Rua: "Presidente Juscelino Kubitschek",
     Complemento: "N 1839",
+
     latitude: -23.5920906,
     longitude: -46.6862208,
   },
@@ -3929,10 +3902,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Santana – Augusto Tolle",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "02404-001",
+    CEP: " 02404-001 ",
     Bairro: "Santana – Augusto Tolle",
-    Rua: "Augusto Tolle",
+    Rua: " Augusto Tolle",
     Complemento: "N 933",
+
     latitude: -23.4853478,
     longitude: -46.6334891,
   },
@@ -3940,10 +3914,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Ibitirama – Vila Prudente",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "03133-200",
+    CEP: " 03133-200",
     Bairro: "Vila Prudente",
-    Rua: "Ibitirama",
+    Rua: " Ibitirama",
     Complemento: "N 1269",
+
     latitude: -23.5910838,
     longitude: -46.580492,
   },
@@ -3951,10 +3926,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Tatuapé",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "03300-001",
-    Bairro: "Tatuapé",
-    Rua: "Azevedo Soares",
+    CEP: " 03300-001",
+    Bairro: " Tatuapé",
+    Rua: " Azevedo Soares",
     Complemento: "N 1585",
+
     latitude: -23.5477438,
     longitude: -46.5614606,
   },
@@ -3962,10 +3938,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Anália Franco",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "03338-000",
-    Bairro: "Anália Franco",
+    CEP: " 03338-000 ",
+    Bairro: " Anália Franco",
     Rua: "Antonio Alves Barril",
     Complemento: "N 323",
+
     latitude: -23.5593568,
     longitude: -46.5615312,
   },
@@ -3974,9 +3951,10 @@ export const stores = [
     Cidade: "São Paulo",
     Estado: "SP",
     CEP: "04615-003",
-    Bairro: "Campo Belo",
+    Bairro: " Campo Belo",
     Rua: "Doutor Jesuino Maciel",
     Complemento: "N 1285",
+
     latitude: -23.621529,
     longitude: -46.6688931,
   },
@@ -3984,10 +3962,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Tatuapé Iii",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "04543-900",
-    Bairro: "Tatuapé Iii",
+    CEP: "04543-900 ",
+    Bairro: " Tatuapé Iii",
     Rua: "Avenida Conselheiro Carrao",
     Complemento: "N 941",
+
     latitude: -23.5410736,
     longitude: -46.54976620000001,
   },
@@ -3996,9 +3975,10 @@ export const stores = [
     Cidade: "São Paulo",
     Estado: "SP",
     CEP: "05300-001",
-    Bairro: "Butantã",
+    Bairro: " Butantã",
     Rua: "Avenida Corifeu De Azevedo Marques",
     Complemento: "N 1000",
+
     latitude: -23.5726504,
     longitude: -46.72418889999999,
   },
@@ -4006,10 +3986,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Vila Leopoldina",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "05315-010",
+    CEP: "05315-010 ",
     Bairro: "Vila Leopoldina",
-    Rua: "Froben",
+    Rua: " Froben",
     Complemento: "N 99",
+
     latitude: -23.5318209,
     longitude: -46.7321727,
   },
@@ -4017,10 +3998,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Shopping Market Place",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "04583-903",
-    Bairro: "Shopping Market Place",
+    CEP: " 04583-903",
+    Bairro: " Shopping Market Place",
     Rua: "Av Doutor Chucri Zaidan",
     Complemento: "N 902",
+
     latitude: -23.6215583,
     longitude: -46.6998137,
   },
@@ -4028,10 +4010,11 @@ export const stores = [
     Parceiro: "Oba São Paulo – Vila Mascote",
     Cidade: "São Paulo",
     Estado: "SP",
-    CEP: "04378-300",
-    Bairro: "Vila Mascote",
+    CEP: " 04378-300 ",
+    Bairro: " Vila Mascote",
     Rua: "Av Santa Catarina",
     Complemento: "N 1415",
+
     latitude: -23.646939,
     longitude: -46.66236780000001,
   },
@@ -4041,8 +4024,9 @@ export const stores = [
     Estado: "SP",
     CEP: "03653-000",
     Bairro: "Penha",
-    Rua: "Av Amador Bueno Da Veiga",
+    Rua: "Av Amador Bueno Da Veiga",
     Complemento: "N 2703",
+
     latitude: -23.5226523,
     longitude: -46.5200594,
   },
@@ -4054,6 +4038,7 @@ export const stores = [
     Bairro: "Interlagos",
     Rua: "Avenida Interlagos",
     Complemento: "N 500",
+
     latitude: -23.657404,
     longitude: -46.6798282,
   },
@@ -4065,6 +4050,7 @@ export const stores = [
     Bairro: "Morumbi",
     Rua: "Jose Da Silva Ribeiro",
     Complemento: "N 31",
+
     latitude: -23.6230955,
     longitude: -46.7383956,
   },
@@ -4076,6 +4062,7 @@ export const stores = [
     Bairro: " São Bernardo Do Campo",
     Rua: "Av Francisco Prestes Maia",
     Complemento: "N 1491",
+
     latitude: -23.7153566,
     longitude: -46.5416523,
   },
@@ -4087,6 +4074,7 @@ export const stores = [
     Bairro: "Barueri",
     Rua: "Alameda Rio Negro",
     Complemento: "N 111",
+
     latitude: -23.5040189,
     longitude: -46.8494706,
   },
@@ -4098,6 +4086,7 @@ export const stores = [
     Bairro: "Barueri",
     Rua: "Alameda Araguaia",
     Complemento: "N 120",
+
     latitude: -23.5000161,
     longitude: -46.8598563,
   },
@@ -4109,6 +4098,7 @@ export const stores = [
     Bairro: "Jardim Samambaia",
     Rua: "Av Doutor Adilson Rodrigues",
     Complemento: "N 77",
+
     latitude: -23.1928454,
     longitude: -46.9077989,
   },
@@ -4118,7 +4108,8 @@ export const stores = [
     Estado: "SP",
     CEP: "11065-400 ",
     Rua: "Avenida General Ataliba Leonel",
-    Complemento: "N 206",
+    Complemento: " N 206",
+
     latitude: -23.5070994,
     longitude: -46.6244771,
   },
@@ -4129,6 +4120,7 @@ export const stores = [
     CEP: " 13255-350",
     Rua: "Av. Mal. Castelo Branco",
     Complemento: "N 42",
+
     latitude: -23.0161991,
     longitude: -46.8429577,
   },
@@ -4140,6 +4132,7 @@ export const stores = [
     Bairro: "Vila Nova",
     Rua: "Av. Prudente De Moraes",
     Complemento: "N 341",
+
     latitude: -23.2636298,
     longitude: -47.3010875,
   },
@@ -4148,9 +4141,10 @@ export const stores = [
     Cidade: "Indaiatuba",
     Estado: "SP",
     CEP: "13333-055 ",
-    Bairro: "Vila Georgina",
+    Bairro: " Vila Georgina",
     Rua: "Avenida Conceicao",
     Complemento: "N 2784",
+
     latitude: -23.0761396,
     longitude: -47.208027,
   },
@@ -4162,6 +4156,7 @@ export const stores = [
     Bairro: "Alto Da Boa Vista",
     Rua: "Avenida Engenheiro Carlos Reinaldo Mendes",
     Complemento: "N 2180",
+
     latitude: -23.4810857,
     longitude: -47.42063599999999,
   },
@@ -4173,6 +4168,7 @@ export const stores = [
     Bairro: "Sousas",
     Rua: "Av. Dr. Antônio Carlos Couto De Barros",
     Complemento: "N 475",
+
     latitude: -22.8813471,
     longitude: -46.9700547,
   },
@@ -4184,6 +4180,7 @@ export const stores = [
     Bairro: "Nova Campinas",
     Rua: "Avenida Doutor Hermas Braga",
     Complemento: "N 941",
+
     latitude: -22.9051307,
     longitude: -47.03753210000001,
   },
@@ -4195,6 +4192,7 @@ export const stores = [
     Bairro: "Ponte Preta",
     Rua: "Rua Vitoriano Dos Anjos,",
     Complemento: "N 1187",
+
     latitude: -22.9161252,
     longitude: -47.0621032,
   },
@@ -4206,6 +4204,7 @@ export const stores = [
     Bairro: "Aquarius",
     Rua: "Av Comendador De Vicente Paulo Penido",
     Complemento: "N 373",
+
     latitude: -23.2167911,
     longitude: -45.9021929,
   },
@@ -4217,6 +4216,7 @@ export const stores = [
     Bairro: "Amoreiras",
     Rua: "Av Das Amoreiras",
     Complemento: "N 1699",
+
     latitude: -22.9223261,
     longitude: -47.0775783,
   },
@@ -4228,6 +4228,7 @@ export const stores = [
     Bairro: "Cambuí Ii",
     Rua: " General Osorio",
     Complemento: "N 2081",
+
     latitude: -22.9005417,
     longitude: -47.0504443,
   },
@@ -4239,6 +4240,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "R. Regente Feijo",
     Complemento: "N 1305",
+
     latitude: -22.903235,
     longitude: -47.0616093,
   },
@@ -4250,6 +4252,7 @@ export const stores = [
     Bairro: "Cambuí ",
     Rua: "Maria Monteiro",
     Complemento: "N 1270",
+
     latitude: -22.8931879,
     longitude: -47.0527904,
   },
@@ -4261,6 +4264,7 @@ export const stores = [
     Bairro: "Santo André",
     Rua: " Av Dom Pedro Ii",
     Complemento: "N 185",
+
     latitude: -23.6538668,
     longitude: -46.5331086,
   },
@@ -4272,6 +4276,7 @@ export const stores = [
     Bairro: "Campolim",
     Rua: "Avenida Antonio Carlos Comitre",
     Complemento: "N 1147",
+
     latitude: -23.5254045,
     longitude: -47.4644779,
   },
@@ -4283,6 +4288,7 @@ export const stores = [
     Bairro: "Vila Augusta ",
     Rua: "Av General Carneiro",
     Complemento: "N 430",
+
     latitude: -23.5039338,
     longitude: -47.472716,
   },
@@ -4294,6 +4300,7 @@ export const stores = [
     Bairro: "Carolina Florence",
     Rua: "Rua Carolina Florence",
     Complemento: "N 300",
+
     latitude: -22.8858773,
     longitude: -47.0606969,
   },
@@ -4305,6 +4312,7 @@ export const stores = [
     Bairro: "Bonfim",
     Rua: "Rua Quintino Bocaiuva",
     Complemento: "N 133",
+
     latitude: -22.8982137,
     longitude: -47.0871174,
   },
@@ -4316,6 +4324,7 @@ export const stores = [
     Bairro: "Jardim Mandela",
     Rua: "Av. Bailarina Selma Parada",
     Complemento: "N 505",
+
     latitude: -22.8642625,
     longitude: -47.0214985,
   },
@@ -4327,6 +4336,7 @@ export const stores = [
     Bairro: "Parque Alto Taquaral",
     Rua: " Maria Christi Matelli",
     Complemento: "N 886",
+
     latitude: -22.8554837,
     longitude: -47.0562599,
   },
@@ -4338,6 +4348,7 @@ export const stores = [
     Bairro: "Mont Blanc Residence",
     Rua: "Av Valderes Fiolo Popo De Campos Ferreira",
     Complemento: "N 1575",
+
     latitude: -22.8326759,
     longitude: -47.0311754,
   },
@@ -4349,6 +4360,7 @@ export const stores = [
     Bairro: "Vila Santa Catarina",
     Rua: "Av  De Cillo",
     Complemento: "N 1778",
+
     latitude: -22.7588564,
     longitude: -47.3388599,
   },
@@ -4360,6 +4372,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "Washington Luiz",
     Complemento: "N 628",
+
     latitude: -22.7399916,
     longitude: -47.3341865,
   },
@@ -4371,6 +4384,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "Senador Vergueiro",
     Complemento: "N 107",
+
     latitude: -22.5610242,
     longitude: -47.399112,
   },
@@ -4382,6 +4396,7 @@ export const stores = [
     Bairro: "Alemães",
     Rua: "Saldanha Marinho",
     Complemento: "N 1900",
+
     latitude: -22.7233305,
     longitude: -47.6353872,
   },
@@ -4393,6 +4408,7 @@ export const stores = [
     Bairro: "Vila Rezende",
     Rua: "Av  Limeira",
     Complemento: "N 722",
+
     latitude: -22.7045704,
     longitude: -47.6492567,
   },
@@ -4404,6 +4420,7 @@ export const stores = [
     Bairro: "Vila Aviação",
     Rua: "Av. Getulio Vargas",
     Complemento: "N 23",
+
     latitude: -22.3546307,
     longitude: -49.0486905,
   },
@@ -4415,6 +4432,7 @@ export const stores = [
     Bairro: "Alto Da Boa Vista",
     Rua: "Av. Presidente Vargas",
     Complemento: "N 2265",
+
     latitude: -21.2081095,
     longitude: -47.8113269,
   },
@@ -4425,6 +4443,7 @@ export const stores = [
     CEP: "15093-215",
     Rua: "Rodovia Raposo Tavares",
     Complemento: "N 22800",
+
     latitude: -23.5894794,
     longitude: -46.8288029,
   },
@@ -4436,6 +4455,7 @@ export const stores = [
     Bairro: "Santa Ursula",
     Rua: " Sao Jose",
     Complemento: "N 933",
+
     latitude: -21.1824996,
     longitude: -47.80811869999999,
   },
@@ -4447,6 +4467,7 @@ export const stores = [
     Bairro: " Lago Sul",
     Rua: "St. De Mansões Dom Bosco ",
     Complemento: "Conj. 12",
+
     latitude: -15.8563032,
     longitude: -47.8369177,
   },
@@ -4458,6 +4479,7 @@ export const stores = [
     Bairro: " Lago Sul",
     Rua: "Smdb Cl, Conj. 12",
     Complemento: "Bloco A ",
+
     latitude: -15.8418775,
     longitude: -47.8769198,
   },
@@ -4469,6 +4491,7 @@ export const stores = [
     Bairro: "Sh Arniqueiras",
     Rua: "Ramal 18 Sul ",
     Complemento: " Lote, 15",
+
     latitude: -15.840589,
     longitude: -48.0224381,
   },
@@ -4480,6 +4503,7 @@ export const stores = [
     Bairro: "Asa Sul",
     Rua: "Quadra Cls 105 Bloco C",
     Complemento: "N 22",
+
     latitude: -15.8277665,
     longitude: -47.9249053,
   },
@@ -4490,6 +4514,7 @@ export const stores = [
     CEP: "72005-710 ",
     Bairro: "Vicente Pires",
     Rua: "Rua 03, Chácara 53, Lote 1, St. Hab",
+
     latitude: -15.8022803,
     longitude: -48.0119463,
   },
@@ -4501,6 +4526,7 @@ export const stores = [
     Bairro: "Asa Sul",
     Rua: "Cls 212 Bl. A Lj. 14 Térreo",
     Complemento: "N 14",
+
     latitude: -15.8269181,
     longitude: -47.9107427,
   },
@@ -4511,6 +4537,7 @@ export const stores = [
     CEP: "70745-000",
     Bairro: "Asa Norte",
     Rua: "Quadra Cln 306 Bloco D",
+
     latitude: -15.7507513,
     longitude: -47.8855873,
   },
@@ -4522,6 +4549,7 @@ export const stores = [
     Bairro: "Asa Norte ",
     Rua: "209 Norte, Shcgn 706 Bl. B, Loja 19 -",
     Complemento: "N 706",
+
     latitude: -15.7716971,
     longitude: -47.8899034,
   },
@@ -4533,6 +4561,7 @@ export const stores = [
     Bairro: "Asa Norte ",
     Rua: "Ca 04 Bloco A Loja 17 E 18,",
     Complemento: "N 79",
+
     latitude: -15.7172415,
     longitude: -47.8905899,
   },
@@ -4544,6 +4573,7 @@ export const stores = [
     Bairro: "Lago Norte",
     Rua: "St. Taquarí Q. 3 Conj. 1",
     Complemento: "N 14",
+
     latitude: -15.696374,
     longitude: -47.8730348,
   },
@@ -4554,6 +4584,7 @@ export const stores = [
     CEP: " 73807-745",
     Rua: "Av. Maestro Joao Luiz Do Espirito Santo ",
     Complemento: " Qd 250 Lt 01",
+
     latitude: -15.5458751,
     longitude: -47.325383,
   },
@@ -4564,6 +4595,7 @@ export const stores = [
     CEP: "75701-480",
     Rua: "Av. Raulina Fonseca Paschoal",
     Complemento: "N 707",
+
     latitude: -18.1697502,
     longitude: -47.9546509,
   },
@@ -4574,6 +4606,7 @@ export const stores = [
     CEP: "75903-290",
     Rua: "Av. Presidente Vargas",
     Complemento: "N1740",
+
     latitude: -17.7898331,
     longitude: -50.9199862,
   },
@@ -4584,6 +4617,7 @@ export const stores = [
     CEP: " 75805-123",
     Rua: "Av  Presidente Tancredo Neves",
     Complemento: "N 100",
+
     latitude: -17.8722645,
     longitude: -51.7307076,
   },
@@ -4593,6 +4627,7 @@ export const stores = [
     Estado: "GO",
     CEP: " 75080-240",
     Rua: "Av. Brasil, S/Nº, Qd A, Lt 15",
+
     latitude: -16.3149382,
     longitude: -48.944216,
   },
@@ -4602,6 +4637,7 @@ export const stores = [
     Estado: "GO",
     CEP: "75830-000",
     Rua: "Av. Ino Resende Q 104 Lt: 02",
+
     latitude: -17.5496848,
     longitude: -52.5439274,
   },
@@ -4611,6 +4647,7 @@ export const stores = [
     Estado: "GO",
     CEP: "75690-000",
     Rua: "Av General Ataliba Leonel",
+
     latitude: -17.744914,
     longitude: -48.622713,
   },
@@ -4618,8 +4655,9 @@ export const stores = [
     Parceiro: "Bretas - Águas Lindas",
     Cidade: "Águas Lindas",
     Estado: "GO",
-    CEP: "72915-705",
+    CEP: " 72915-705",
     Rua: "Rua Santa Luzia 1B",
+
     latitude: -15.7378964,
     longitude: -48.2728463,
   },
@@ -4630,6 +4668,7 @@ export const stores = [
     CEP: "75701-480",
     Rua: "Av. Dona Raulina Pascoal",
     Complemento: "N 1438",
+
     latitude: -18.167338,
     longitude: -47.9478366,
   },
@@ -4640,6 +4679,7 @@ export const stores = [
     CEP: "75523-424",
     Rua: "Av Jk",
     Complemento: "N 484",
+
     latitude: -18.4101031,
     longitude: -49.2077439,
   },
@@ -4651,6 +4691,7 @@ export const stores = [
     Bairro: "Parque Industrial Lagoinha",
     Rua: "Joao Naves De Avila",
     Complemento: "LOJA 04 E 05",
+
     latitude: -18.9282877,
     longitude: -48.2565239,
   },
@@ -4662,6 +4703,7 @@ export const stores = [
     Bairro: "Nossa Senhora Aparecida",
     Rua: "Contorno Mato Grosso",
     Complemento: "N 1517",
+
     latitude: -18.8829534,
     longitude: -48.2579524,
   },
@@ -4673,6 +4715,7 @@ export const stores = [
     Bairro: "Distrito Industrial Diper",
     Rua: "Br-101 Sul 00Km 96,4",
     Complemento: 0,
+
     latitude: -8.2689172,
     longitude: -35.0066901,
   },
@@ -4684,6 +4727,7 @@ export const stores = [
     Bairro: "Jardim America",
     Rua: "Laudemiro Jose Bueno",
     Complemento: "QUADRA: 12;",
+
     latitude: -17.7857764,
     longitude: -50.9298073,
   },
@@ -4695,6 +4739,7 @@ export const stores = [
     Bairro: "Vila Santo Antonio",
     Rua: "Washington Luiz",
     Complemento: "GALPAO OPERACIONAL 26",
+
     latitude: -22.6179136,
     longitude: -43.2959869,
   },
@@ -4706,6 +4751,7 @@ export const stores = [
     Bairro: "Jd Presidente Dutra",
     Rua: "Rio Verde",
     Complemento: "QUADRA 71 LOTE 04/05/06",
+
     latitude: -16.7496349,
     longitude: -49.3283697,
   },
@@ -4717,6 +4763,7 @@ export const stores = [
     Bairro: "Parque São Jorge",
     Rua: "Av Bernardo Sayao",
     Complemento: "Q 19 L 4A",
+
     latitude: -16.3783398,
     longitude: -49.4905674,
   },
@@ -4728,6 +4775,7 @@ export const stores = [
     Bairro: "Centro",
     Rua: "Lucy",
     Complemento: "QUADRA 9A LOTE 11",
+
     latitude: -11.3054573,
     longitude: -48.9467146,
   },
@@ -4739,7 +4787,8 @@ export const stores = [
     Bairro: "Jardim Prive Das Caldas",
     Rua: "Marginal",
     Complemento: "QUADRA 5 LOTE 17",
-    latitude: -17.725009,
-    longitude: -48.596440,
+
+    latitude: -17.724999,
+    longitude: -48.5990176,
   },
 ];
