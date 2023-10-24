@@ -3444,8 +3444,8 @@ export const stores = [
     CEP: "74230-100",
     Bairro: "St. Bueno",
     Rua: "Av. T-63, 1100 ",
-    latitude: -16.713932,
-    longitude: -49.268884,
+    latitude: -16.713859950817582,
+    longitude: -49.26882092184102,
   },
   {
     Parceiro: "Oba Hortifruti",
