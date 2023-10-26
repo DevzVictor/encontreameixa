@@ -64,9 +64,9 @@ function Partners() {
         <div className="item">
           <img src={marcaPra} alt="" />
         </div>
-        <div className="item">
+        {/* <div className="item">
           <img src={marcaSad} alt="" />
-        </div>
+        </div> */}
         <div className="item">
           <img src={marcaTat} alt="" />
         </div>
